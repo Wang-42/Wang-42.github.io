@@ -1,0 +1,137 @@
+[
+    {
+        "id": 0,
+        "name": "Samsung Galaxy Z Fold 7 5G 12GB/256GB Mới (Chính hãng VN)",
+        "variant": [
+        {
+            "variantId": 0,
+            "variantName": "Đen"
+        },
+        {
+            "variantId": 1,
+            "variantName": "Xanh Mint"
+        },
+        {
+            "variantId": 2,
+            "variantName": "Xám"
+        },
+        {
+            "variantId": 3,
+            "variantName": "Xanh Navy"
+        }
+        ],
+        "info": "",
+        "images": [
+            "./san-pham/",
+            ""
+        ]
+    },
+    {
+        "id": 1,
+        "name": "Samsung Galaxy S26 Ultra 5G 12GB/512GB Mới (Chính hãng VN)",
+        "variant": [
+        {
+            "variantId": 0,
+            "variantName": "Đen"
+        },
+        {
+            "variantId": 1,
+            "variantName": "Trắng"
+        },
+        {
+            "variantId": 2,
+            "variantName": "Tím"
+        },
+        {
+            "variantId": 3,
+            "variantName": "Vàng Hồng"
+        }
+        ],
+        "info": "",
+        "images": [
+            "./san-pham/",
+            ""
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Samsung Galaxy Z Fold 6 5G 12GB/256GB Mới (Chính hãng Việt Nam)",
+        "variant": [
+        {
+            "variantId": 0,
+            "variantName": "Trắng"
+        },
+        {
+            "variantId": 1,
+            "variantName": "Đen"
+        },
+        {
+            "variantId": 2,
+            "variantName": "Hồng"
+        },
+        {
+            "variantId": 3,
+            "variantName": "Xám"
+        }
+        ],
+        "info": "",
+        "images": [
+            "./san-pham/",
+            ""
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Samsung Galaxy S25 FE 5G 8GB/512GB Mới (Chính Hãng VN)",
+        "variant": [
+        {
+            "variantId": 0,
+            "variantName": "Trắng"
+        },
+        {
+            "variantId": 1,
+            "variantName": "Đen"
+        },
+        {
+            "variantId": 2,
+            "variantName": "Xanh Navy"
+        },
+        {
+            "variantId": 3,
+            "variantName": "Xanh Icy"
+        }
+        ],
+        "info": "",
+        "images": [
+            "./san-pham/",
+            ""
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Samsung Galaxy S24 FE 5G 256GB Mới (Chính hãng Việt Nam)",
+        "variant": [
+        {
+            "variantId": 0,
+            "variantName": "Đen"
+        },
+        {
+            "variantId": 1,
+            "variantName": "Xanh da trời"
+        },
+        {
+            "variantId": 2,
+            "variantName": "Xanh Mint"
+        },
+        {
+            "variantId": 3,
+            "variantName": "Xám"
+        }
+        ],
+        "info": "",
+        "images": [
+            "./san-pham/",
+            ""
+        ]
+    }
+]

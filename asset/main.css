@@ -24,9 +24,55 @@ html {
     --primary-color: rgba(31,136,74,.92);
     --white-color: rgb(255,255,255);
     --black-color: rgb(0,0,0);
+    --QandA-color: #848080
+}
+
+/* animation */
+@keyframes slideToRight {
+    from {
+        transform: translate(-100%,-50%);
+    }
+    to {
+        transform: translate(0,-50%);
+    }
+}
+
+@keyframes slideToLeft {
+    from {
+        transform: translate(100%,-50%);
+    }
+    to {
+        transform: translate(0,-50%);
+    }
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-50%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+/* su dung chung */
+.container {
+    /* can deu 2 ben */
+    margin: 0 120px; 
+    padding: 0;
 }
 
 /* header */
+.header1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header2 {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+
 .header-content {
     background-color: var(--primary-color);
     padding: 4px 0;
@@ -80,6 +126,10 @@ html {
     bottom: 20%;
 }
 
+.header-logo {
+    grid-column: span 2;
+}
+
 .header-logo__img {
     display: flex;
     margin: 8px auto;
@@ -89,6 +139,7 @@ html {
 }
 
 .header-search {
+    grid-column: span 8;
     display: flex;
     align-items: center;
 }
@@ -110,6 +161,7 @@ html {
 }
 
 .header-shop-cart {
+    grid-column: span 2;
     display: flex;
     margin: auto;
     justify-content: center;
@@ -126,6 +178,8 @@ html {
     background-color: rgb(52, 168, 83);
     position: sticky;
     top: 0;
+    z-index: 100;
+    margin-bottom: 12px;
 }
 
 .navbar__list {
@@ -152,20 +206,27 @@ html {
     color: var(--white-color);
 }
 
-/* main */
-main {
-    height: 330px;
+/* footer */
+.footer {
+    margin-top: 48px;
 }
 
-/* footer */
-.footer .row {
-    align-items: flex-start;
+.footer-body {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    gap: 12px;
 }
 
 .footer-item {
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
+    grid-column: span 3;
+    padding: 8px 12px;
+}
+
+.footer-item:not(:last-child) {
+    border-right: 1px solid #ccc;
 }
 
 .footer-item > h3 {
@@ -174,6 +235,7 @@ main {
     margin-bottom: 24px;
     width: 100%;
     text-align: center;
+    user-select: none;
 }
 
 .footer-item > p {
@@ -186,9 +248,10 @@ main {
 }
 
 .footer-item__logo {
-    width: 180px;
+    width: 200px;
 }
 
+.footer-item__trans,
 .footer-item__list {
     width: 100%;
     display: flex;
@@ -199,6 +262,11 @@ main {
 .footer-item__list-img {
     width: 40px;
     margin: 4px 6px;
+}
+
+.footer-item__trans-img {
+    width: 20%;
+    object-fit: contain;
 }
 
 .footer-item__policy-text {
@@ -221,6 +289,7 @@ main {
     width: 15%;
 }
 .footer__bottom {
+    margin-top: 24px;
     background-color: rgb(52, 168, 83);
     padding: 12px 0px;
 }
