@@ -32,5 +32,7 @@ slider();
 function main(){
     open('.question-item__tittle');
 }
+var testArray= [1,4,6];
+window.sessionStorage.setItem("cartList", JSON.stringify(testArray));
 
 main();
