@@ -32,7 +32,7 @@ cartList.push(
 console.log(cartList);
 
 
-function addItem(cartItem,sanpham) {
+function addItem(cartItem,cartIndex,sanpham) {
     const cart__item_box = document.querySelector(".cart__item-box");
     const cart__item = document.createElement("div");
     cart__item.classList.add("cart__item");
@@ -120,6 +120,7 @@ function addItem(cartItem,sanpham) {
     const remove_agree = document.createElement("div");
     remove_agree.classList.add("btn");
     remove_agree.classList.add("cart_item__remove_agree");
+    remove_agree.setAttribute("data-index",cartIndex);
     remove_agree.innerHTML = "Xóa";
 
     const remove_close = document.createElement("div");
@@ -134,11 +135,19 @@ function addItem(cartItem,sanpham) {
     cart_item__remove_popover.appendChild(row);
 }
 
+function updateCartIndex() {
+    let cart_item__remove_agree; 
+    for (let i = 0; i < document.getElementsByClassName("cart__item").length;i++) {
+        cart_item__remove_agree = document.getElementsByClassName("cart_item__remove_agree")[i];
+        cart_item__remove_agree.setAttribute("data-index",i);
+    }
+}
+
 async function populate(){
     const sanpham = await getData();
-    for (i = 0;i < cartList.length; i++) {
+    for (let i = 0;i < cartList.length; i++) {
         // addItem(i);
-        addItem(cartList[i],sanpham);
+        addItem(cartList[i],i,sanpham);
     }
 
     return new Promise((resolve) => {
@@ -157,7 +166,13 @@ function addRemoveFunct() {
         });
         let cart_item__remove_agree = document.getElementsByClassName("cart_item__remove_agree")[i];
         cart_item__remove_agree.addEventListener("click", function(){
+            // remove item from cart
+            cartList.splice(cart_item__remove_agree.dataset.index,1);
+            emptyCart();
+            console.log(cartList);
             cart_item__remove_agree.parentElement.parentElement.parentElement.remove();
+            updateCartIndex();
+            updateTotalCost();
         });
         let cart_item__remove_close = document.getElementsByClassName("cart_item__remove_close")[i];
         cart_item__remove_close.addEventListener("click",function() {
@@ -166,9 +181,67 @@ function addRemoveFunct() {
     };
 }
 
+async function updateTotalCost() {
+    const sanpham = await getData();
+
+    //total cost
+    let totalCost = 0;
+    for (let i = 0;i < cartList.length; i++) {
+        totalCost += priceToInt(sanpham[cartList[i].id].price) * cartList[i].quantity;
+    }
+
+    //add thousands separator
+    let intToPrice = "";
+    let totalCost_string = JSON.stringify(totalCost);
+    let start = 0
+    let end = totalCost_string.length%3;
+    let temp = end;
+    (end != 0)? 0:end = 3;
+    intToPrice += totalCost_string.slice(start,end) + ",";
+    for (let i = temp; i >= 0; i -= 3) {
+        start = end;
+        end += 3;
+        intToPrice += totalCost_string.slice(start,end) + ",";
+    }
+    intToPrice += totalCost_string.slice(totalCost_string.length - 4,totalCost_string.length - 1);
+    
+    //update html
+    const item_quantity = document.querySelector(".cart_cost__amount");
+    item_quantity.innerHTML = intToPrice + "đ";
+}
+
+function priceToInt(price) { //remove thousands separator
+    let array = price.split(",");
+    array[array.length - 1] = array[array.length - 1].split("đ")[0];
+    let fullPrice = 0;
+    for (let i = 0; i < array.length; i++) {
+        fullPrice += array[i] * 10**(3*(array.length - i - 1)) ;
+    }
+    return fullPrice;
+}
+
+async function emptyCart() {
+    const cart__content= document.querySelector(".cart__content");
+    const cart_empty = document.querySelector(".cart-empty");
+    if (cartList.length == 0) {
+        cart_empty.classList.remove("display-none");
+        cart__content.classList.add("display-none");
+    }
+    else {
+        cart__content.classList.remove("display-none");
+        cart_empty.classList.add("display-none");
+    }
+    return new Promise ((resolve) => {
+        resolve();
+    })
+}
+
 async function main() {
+    await emptyCart();
     await populate();
+    updateTotalCost();
     addRemoveFunct();
     
 }
+
 main();
