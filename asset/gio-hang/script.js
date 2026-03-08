@@ -1,27 +1,153 @@
 // import sanpham.json
-const sanpham = fetch('./asset/sanpham.json')
-    .then(response => {
-        if (!response.ok) {
-            throw new Error('Network response was not ok');
-        }
-        return response.json();
-    })
-    .then(sanpham => {
-        console.log(sanpham);
-    })
-    .catch(error => {
-        console.error('There has been a problem with your fetch operation:', error);
-    });
-
-console.log(JSON.parse(sessionStorage.getItem("cartList")));
-
-function addItem(itemID) {
-    const cart__item_box = document.querySelector("cart__item-box")
+async function getData() {
+    const respone = await fetch('/asset/sanpham.json');
+    return respone.json();
 }
 
-function main() {
-    // remove item onclick events
-    const rmbtn = document.getElementsByClassName("cart_item__remove");
+
+//fetch cartList
+const cartList = JSON.parse(sessionStorage.getItem("cartList"));
+cartList.push(
+    {
+        "id": 0,
+        "quantity": 5,
+        "variant": 2 
+    },
+    {
+        "id": 2,
+        "quantity": 1,
+        "variant": 1 
+    },
+    {
+        "id": 1,
+        "quantity": 2,
+        "variant": 1 
+    },
+    {
+        "id": 3,
+        "quantity": 4,
+        "variant": 1 
+    }
+);
+console.log(cartList);
+
+
+function addItem(cartItem,sanpham) {
+    const cart__item_box = document.querySelector(".cart__item-box");
+    const cart__item = document.createElement("div");
+    cart__item.classList.add("cart__item");
+    cart__item_box.appendChild(cart__item);
+
+    const cart_item__img = document.createElement("div");
+    const cart_item__quantity = document.createElement("div");
+    const cart_item__info= document.createElement("div");
+    const cart_item__remove= document.createElement("div");
+    const cart_item__remove_popover = document.createElement("div");
+
+    cart_item__img.classList.add("cart_item__img");
+    cart_item__quantity.classList.add("cart_item__quantity");
+    cart_item__info.classList.add("cart_item__info");
+    cart_item__remove.classList.add("cart_item__remove");
+    cart_item__remove_popover.classList.add("cart_item__remove_popover");
+
+    cart__item.appendChild(cart_item__img);
+    cart__item.appendChild(cart_item__quantity);
+    cart__item.appendChild(cart_item__info);
+    cart__item.appendChild(cart_item__remove);
+    cart__item.appendChild(cart_item__remove_popover);
+
+    // item img
+    const item_img = document.createElement("img");
+    item_img.classList.add("item__img");
+    item_img.setAttribute("src","./asset/gio-hang/images/iphone-17-pro-max-blue.png")
+    cart_item__img.appendChild(item_img);
+
+    //item quantity
+    const btn_plus = document.createElement("div");
+    btn_plus.classList.add("btn-plus");
+    const btn_plus_img = document.createElement("img");
+    btn_plus_img.setAttribute("src","./asset/gio-hang/images/up-arrow.jpg");
+    btn_plus.appendChild(btn_plus_img);
+
+    const quantity_number = document.createElement("div");
+    quantity_number.innerHTML= cartItem.quantity;
+    quantity_number.classList.add("quantity-number");
+
+    const btn_minus= document.createElement("div");
+    btn_minus.classList.add("btn-minus");
+    const btn_minus_img= document.createElement("img");
+    btn_minus_img.setAttribute("src","./asset/gio-hang/images/down-arrow.jpg");
+    btn_minus.appendChild(btn_minus_img);
+
+    cart_item__quantity.appendChild(btn_plus);
+    cart_item__quantity.appendChild(quantity_number);
+    cart_item__quantity.appendChild(btn_minus);
+
+    //item info
+    const item_name = document.createElement("h3");
+    const item_variant = document.createElement("p");
+    const item_price = document.createElement("p");
+
+    item_name.classList.add("item-name");
+    item_name.innerHTML = sanpham[cartItem.id].name;
+    
+    item_variant.classList.add("item-variant");
+    if (sanpham[cartItem.id].variant != null)
+        item_variant.innerHTML = sanpham[cartItem.id].variant[cartItem.variant];
+
+    item_price.classList.add("item-price");
+    item_price.innerHTML = sanpham[cartItem.id].price;
+
+    cart_item__info.appendChild(item_name);
+    cart_item__info.appendChild(item_variant);
+    cart_item__info.appendChild(item_price);
+
+    // remove item
+    const trash_icon = document.createElement("div");
+    trash_icon.classList.add("icon");
+    const trash_icon_img = document.createElement("img");
+    trash_icon_img.setAttribute("src","./asset/gio-hang/images/trash-icon.png");
+    trash_icon.appendChild(trash_icon_img);
+    cart_item__remove.appendChild(trash_icon);
+    
+    // remove item popover
+    const confirm_removal = document.createElement("div");
+    confirm_removal.classList.add("confirm-removal");
+    confirm_removal.innerHTML = "Xác nhận xóa sản phẩm?";
+
+    const row = document.createElement("div");
+    row.classList.add("row");
+    const remove_agree = document.createElement("div");
+    remove_agree.classList.add("btn");
+    remove_agree.classList.add("cart_item__remove_agree");
+    remove_agree.innerHTML = "Xóa";
+
+    const remove_close = document.createElement("div");
+    remove_close.classList.add("btn");
+    remove_close.classList.add("cart_item__remove_close");
+    remove_close.innerHTML = "Hủy";
+
+    row.appendChild(remove_agree);
+    row.appendChild(remove_close);
+
+    cart_item__remove_popover.appendChild(confirm_removal);
+    cart_item__remove_popover.appendChild(row);
+}
+
+async function populate(){
+    const sanpham = await getData();
+    for (i = 0;i < cartList.length; i++) {
+        // addItem(i);
+        addItem(cartList[i],sanpham);
+    }
+
+    return new Promise((resolve) => {
+        resolve();
+    })
+}
+
+function addRemoveFunct() {
+    const rmbtn = document.querySelectorAll(".cart_item__remove");
 
     for (let i = 0;i < rmbtn.length;i++) {
         let current = rmbtn[i];
@@ -38,7 +164,11 @@ function main() {
             popover.classList.remove("popover");
         });
     };
+}
 
-
+async function main() {
+    await populate();
+    addRemoveFunct();
+    
 }
 main();
