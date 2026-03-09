@@ -4,6 +4,8 @@ async function getData() {
     return respone.json();
 }
 
+let temp= [];
+window.sessionStorage.setItem("cartList", JSON.stringify(temp));
 
 //fetch cartList
 const cartList = JSON.parse(sessionStorage.getItem("cartList"));
@@ -36,6 +38,7 @@ function addItem(cartItem,cartIndex,sanpham) {
     const cart__item_box = document.querySelector(".cart__item-box");
     const cart__item = document.createElement("div");
     cart__item.classList.add("cart__item");
+    cart__item.setAttribute("data-index",cartIndex);
     cart__item_box.appendChild(cart__item);
 
     const cart_item__img = document.createElement("div");
@@ -72,6 +75,7 @@ function addItem(cartItem,cartIndex,sanpham) {
     const quantity_number = document.createElement("div");
     quantity_number.innerHTML= cartItem.quantity;
     quantity_number.classList.add("quantity-number");
+    quantity_number.setAttribute("data-quantity", cartItem.quantity);
 
     const btn_minus= document.createElement("div");
     btn_minus.classList.add("btn-minus");
@@ -120,7 +124,6 @@ function addItem(cartItem,cartIndex,sanpham) {
     const remove_agree = document.createElement("div");
     remove_agree.classList.add("btn");
     remove_agree.classList.add("cart_item__remove_agree");
-    remove_agree.setAttribute("data-index",cartIndex);
     remove_agree.innerHTML = "Xóa";
 
     const remove_close = document.createElement("div");
@@ -136,10 +139,10 @@ function addItem(cartItem,cartIndex,sanpham) {
 }
 
 function updateCartIndex() {
-    let cart_item__remove_agree; 
+    let cart__item; 
     for (let i = 0; i < document.getElementsByClassName("cart__item").length;i++) {
-        cart_item__remove_agree = document.getElementsByClassName("cart_item__remove_agree")[i];
-        cart_item__remove_agree.setAttribute("data-index",i);
+        cart__item= document.getElementsByClassName("cart__item")[i];
+        cart__item.setAttribute("data-index",i);
     }
 }
 
@@ -155,6 +158,33 @@ async function populate(){
     })
 }
 
+async function changeItemQuantity() {
+    const cart_item__quantity = document.getElementsByClassName("cart_item__quantity");
+
+    for (let i = 0; i < cart_item__quantity.length; i++) {
+        let current = cart_item__quantity[i];
+        let btn_plus = current.children[0];
+        let quantity = current.children[1];
+        let btn_minus = current.children[2];
+
+        btn_plus.addEventListener("click", function() {
+            quantity.dataset.quantity++;
+            cartList[current.parentElement.dataset.index].quantity++;
+            quantity.innerHTML = quantity.dataset.quantity;
+            updateTotalCost();
+        });
+
+        btn_minus.addEventListener("click", function() {
+            if (quantity.dataset.quantity > 1) {
+                quantity.dataset.quantity--;
+                cartList[current.parentElement.dataset.index].quantity--;
+                quantity.innerHTML = quantity.dataset.quantity;
+                updateTotalCost();
+            }
+        })
+    }
+}
+
 function addRemoveFunct() {
     const rmbtn = document.querySelectorAll(".cart_item__remove");
 
@@ -167,7 +197,7 @@ function addRemoveFunct() {
         let cart_item__remove_agree = document.getElementsByClassName("cart_item__remove_agree")[i];
         cart_item__remove_agree.addEventListener("click", function(){
             // remove item from cart
-            cartList.splice(cart_item__remove_agree.dataset.index,1);
+            cartList.splice(current.parentElement.dataset.index,1);
             emptyCart();
             console.log(cartList);
             cart_item__remove_agree.parentElement.parentElement.parentElement.remove();
@@ -189,21 +219,22 @@ async function updateTotalCost() {
     for (let i = 0;i < cartList.length; i++) {
         totalCost += priceToInt(sanpham[cartList[i].id].price) * cartList[i].quantity;
     }
+    console.log(totalCost);
 
     //add thousands separator
     let intToPrice = "";
     let totalCost_string = JSON.stringify(totalCost);
     let start = 0
     let end = totalCost_string.length%3;
+    (end == 0)? end = 3:0;
     let temp = end;
-    (end != 0)? 0:end = 3;
     intToPrice += totalCost_string.slice(start,end) + ",";
-    for (let i = temp; i >= 0; i -= 3) {
+    for (let i = totalCost_string.length - temp; i > 3; i -= 3) {
         start = end;
         end += 3;
         intToPrice += totalCost_string.slice(start,end) + ",";
     }
-    intToPrice += totalCost_string.slice(totalCost_string.length - 4,totalCost_string.length - 1);
+    intToPrice += totalCost_string.slice(totalCost_string.length - 3,totalCost_string.length);
     
     //update html
     const item_quantity = document.querySelector(".cart_cost__amount");
@@ -241,7 +272,7 @@ async function main() {
     await populate();
     updateTotalCost();
     addRemoveFunct();
-    
+    changeItemQuantity(); 
 }
 
 main();

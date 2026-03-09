@@ -34,8 +34,3 @@ function main(){
 }
 
 main();
-
-//empty cartList
-// window.sessionStorage.removeItem("cartList");
-let cartList = [];
-window.sessionStorage.setItem("cartList", JSON.stringify(cartList));
