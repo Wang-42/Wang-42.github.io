@@ -1,0 +1,57 @@
+.login-div{
+    display: flex;
+    justify-content: center;    
+    align-items: flex-start;   /* thay vì center, để form nằm phía trên */
+    padding-top: 50px;     
+    height: 100vh;           /* chiếm toàn bộ chiều cao của viewport */
+    background: #f0f0f0;    /* màu nền nhẹ cho trang */
+}
+
+.login-form {
+    background: white;      /* nền trắng cho form */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    
+    justify-content: center;    
+    align-items: center;     
+}
+
+.login-input{
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+}
+
+.login-label{
+    font-family: 'Playfair Display';
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.login-button {
+    width: 320px;
+    padding: 12px;
+    font-size: 18px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+h1 {
+    font-family:'Playfair Display';
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+p {
+    font-family: 'Playfair Display';
+    font-size: 12px;
+    margin-bottom: 20px;
+}
