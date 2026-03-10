@@ -74,9 +74,8 @@ async function emptyCart() {
         cart__content.classList.remove("display-none");
         cart_empty.classList.add("display-none");
     }
-    return new Promise ((resolve) => {
-        resolve();
-    })
+
+    return Promise.resolve();
 }
 
 /* populate and add function to item */
@@ -88,9 +87,7 @@ async function populate(){
         addItem(cartList[i],i,sanpham);
     }
 
-    return new Promise((resolve) => {
-        resolve();
-    })
+    return Promise.resolve();
 }
 
 function addItem(cartItem,cartIndex,sanpham) {
@@ -298,9 +295,7 @@ async function updateTotalCost() {
     cost_amount.innerHTML = intToPrice + "đ";
     cost_amount.setAttribute("data-total-cost",totalCost);
 
-    return new Promise((resolve) => {
-        resolve();
-    })
+    return Promise.resolve();
 }
 
 function priceToInt(price) { //remove thousands separator

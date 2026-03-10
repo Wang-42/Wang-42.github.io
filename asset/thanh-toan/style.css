@@ -1,0 +1,192 @@
+/* footer */
+footer > .container {
+    display: none;
+}
+
+
+/* container */
+
+.container  h2{
+    font-size: 24px; 
+    margin-bottom: 20px ;
+    padding-top: 20px;
+}
+
+/* icon */
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    color: #ccc;
+}
+
+/* Cart heading bar */
+
+.cart-heading-bar__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    min-height: 70px;
+    max-height: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo-box img ,.logo-box {
+    max-height: 70px;
+}
+
+.cart-heading-bar {
+    display: none;
+    position: fixed;
+    z-index: 60;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px 0px,
+     rgba(0, 0, 0, 0.14) 0px 0px 1px 0px,
+      rgba(0, 0, 0, 0.12) 0px 2px 1px -1px;
+    background: rgb(255, 255, 255);
+}
+
+@media (min-width: 768px) {
+    .cart-heading-bar {
+        display: block; 
+    }
+    .header, .navbar {
+        display: none;
+    }
+}
+
+.page_content {
+    margin-top: 0px;
+}
+
+@media (min-width: 768px) {
+    .page_content{
+        margin-top: 70px;
+    }
+}
+
+.shopping-step {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.step.active {
+    font-weight: bold;
+    background: rgb(240, 242, 245);
+}
+
+.shopping-step .step {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.shopping-step .step .step-number {
+    font-family: avenir-next-regular, arial, serif;
+    color: rgb(77, 78, 79);
+    font-size: 16px;
+}
+
+.shopping-step .step .step-label {
+    display: block;
+    color: rgb(77, 78, 79);
+    margin-left: 8px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.shopping-step .step.active::before {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 100%;
+    background: rgb(240, 242, 245);
+    transform: skewX(-12deg);
+    top: 0px;
+    right: -5px;
+}
+
+.shopping-step .step.active::after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 100%;
+    background: rgb(240, 242, 245);
+    transform: skewX(-12deg);
+    top: 0px;
+    left: -5px;
+}
+
+
+.btn-plus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+    position: relative;
+    z-index: 50;
+ }
+
+ .btn-minus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+    position: relative;
+    z-index: 50;
+ }
+
+ /* buy button */
+.row.buy {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row.buy .btn {
+    flex-grow: 1;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.3s ease-out 0s;
+    white-space: nowrap;
+    border-radius: 3px;
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+    color: #4d4e4f;
+    margin: 20px 10px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.12),
+    0 0 1px 0 rgba(0,0,0,.14),0 2px 1px -1px
+     rgba(0,0,0,.12);
+}
+
+.row.buy .btn:hover {
+    box-shadow: 0 3px 8px rgba(0,0,0,.15),
+    0 6px 6px rgba(0,0,0,.2);
+}
+
+.btn-red {
+    background-color: #f33;
+    color: #fff !important;
+}
