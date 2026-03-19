@@ -1,3 +1,4 @@
+/*==========================CSS-ĐĂNG NHẬP=====================*/
 .login-div{
     display: flex;
     justify-content: center;    
@@ -12,25 +13,10 @@
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    
     justify-content: center;    
     align-items: center;     
 }
 
-.login-input{
-    width: 300px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    outline: none;
-}
-
-.login-label{
-    font-family: 'Playfair Display';
-    font-size: 12px;
-    font-weight: 600;
-    margin-bottom: 5px;
-}
 
 .login-button {
     width: 320px;
@@ -52,6 +38,91 @@ h1 {
 
 p {
     font-family: 'Playfair Display';
+    font-size: 20px;
+    margin: 20px 0px;
+}
+/*=================================================*/
+
+
+/*=================CSS-ĐĂNG KÝ=====================*/
+/* Container chính căn giữa màn hình */
+.register-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.register-note{
+    opacity: 0.6;
+}
+
+.register-caution{
     font-size: 12px;
-    margin-bottom: 20px;
+    color: gray;
+}
+
+
+.register-label {
+    font-family: 'Playfair Display';
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+
+.register-lisense {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.register-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+}
+
+/* Dàn 2 ô input trên 1 hàng */
+.input-group {
+    display: flex;
+    gap: 15px; /* Khoảng cách giữa 2 ô */
+    margin-bottom: 15px;
+}
+
+.form-control {
+    flex: 1; /* Để 2 ô có độ rộng bằng nhau */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style cho các nút dưới cùng */
+.form-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn-submit {
+    background-color: #1c7705; /* Màu đỏ đặc trưng */
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    flex: 1;
+    margin-left: 10px;
+}
+
+.btn-google, .btn-zalo {
+    background-color: #ffffff; /* Màu xanh đặc trưng của Google */
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    margin: 0px 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    flex: 1;
+    box-shadow: 0 0 0 1px #ccc; /* Viền nhẹ cho nút */
 }
