@@ -1,561 +1,108 @@
 [
-    {
-        "id": 0,
-        "name": "Samsung Galaxy Z Fold 7 5G 12GB/256GB Mới (Chính hãng VN)",
-        "model": null,
-        "variant": [
-            "Đen",
-            "Xanh Mint",
-            "Xám",
-            "Xanh Navy"
-        ],
-        "price": "34,990,000đ",
-        "info": "",
-        "images": [
-            "./asset/chi-tiet-san-pham/images/samsung1/den.png",
-            "./asset/chi-tiet-san-pham/images/samsung1/xanh-mint.png",
-            "./asset/chi-tiet-san-pham/images/samsung1/xam.png",
-            "./asset/chi-tiet-san-pham/images/samsung1/xanh-navy.png"
-        ]
-    },
-    {
-        "id": 1,
-        "name": "Samsung Galaxy S26 Ultra 5G 12GB/512GB Mới (Chính hãng VN)",
-        "model": null,
-        "variant": [
-            "Đen",
-            "Trắng",
-            "Tím",
-            "Vàng Hồng"
-        ],
-        "price": "32,490,000đ",
-        "info": "",
-        "images": [
-            "./asset/chi-tiet-san-pham/images/samsung2/den.png",
-            "./asset/chi-tiet-san-pham/images/samsung2/trang.png",
-            "./asset/chi-tiet-san-pham/images/samsung2/tim.png",
-            "./asset/chi-tiet-san-pham/images/samsung2/vang-hong.png"
-        ]
-    },
-    {
-        "id": 2,
-        "name": "Samsung Galaxy Z Fold 6 5G 12GB/256GB Mới (Chính hãng Việt Nam)",
-        "model":null,
-        "variant": [
-            "Trắng",
-            "Đen",
-            "Hồng",
-            "Xám"
-        ],
-        "price": "27,190,000đ",
-        "info": "",
-        "images": [
-            "./asset/chi-tiet-san-pham/images/samsung3/trang.jpg",
-            "./asset/chi-tiet-san-pham/images/samsung3/den.png",
-            "./asset/chi-tiet-san-pham/images/samsung3/hong.webp",
-            "./asset/chi-tiet-san-pham/images/samsung3/xam.png"
-        ]
-    },
-    {
-        "id": 3,
-        "name": "Samsung Galaxy S25 FE 5G 8GB/512GB Mới (Chính Hãng VN)",
-        "model": null,
-        "variant": [
-            "Trắng",
-            "Đen",
-            "Xanh Navy",
-            "Xanh Icy"
-        ],
-        "price": "14,990,000đ",
-        "info": "",
-        "images": [
-            "./asset/chi-tiet-san-pham/images/samsung-s25-fe/trang.png",
-            "./asset/chi-tiet-san-pham/images/samsung-s25-fe/den.png",
-            "./asset/chi-tiet-san-pham/images/samsung-s25-fe/xanh-navy.png",
-            "./asset/chi-tiet-san-pham/images/samsung-s25-fe/xanh-icy.png"
-        ]
-    },
-    {
-        "id": 4,
-        "name": "Samsung Galaxy S24 FE 5G 256GB Mới (Chính hãng Việt Nam)",
-        "model":null,
-        "variant": [
-            "Đen",
-            "Xanh da trời",
-            "Xanh Mint",
-            "Xám"
-        ],
-        "price": "11,290,000đ",
-        "info": "",
-        "images": [
-            "./asset/chi-tiet-san-pham/images/samsung5/den.png",
-            "./asset/chi-tiet-san-pham/images/samsung5/xanh-da-troi.png",
-            "./asset/chi-tiet-san-pham/images/samsung5/xanh-mint.png",
-            "./asset/chi-tiet-san-pham/images/samsung5/xam.png"
-        ]
-    },
-    {
-        "id": 5,
-        "name": "iPhone 17 Pro 1TB Mới (VN/A)",
-        "model": null,
-        "variant": [
-            "Trắng",
-            "Cam Vũ Trụ",
-            "Xanh Dương Đậm"
-        ],
-        "price": "40,990,000đ",
-        "info": "",
-        "images": [
-            "./asset/chi-tiet-san-pham/images/apple1/trang.png",
-            "./asset/chi-tiet-san-pham/images/apple1/cam-vu-tru.png",
-            "./asset/chi-tiet-san-pham/images/apple1/xanh-duong-dam.png"
-        ]
-    },
-    {
-        "id": 6,
-        "name": "iPhone 17 Pro Max 512GB Mới (Việt Nam ZP/A)",
-        "model": null,
-        "variant": [
-            "Trắng",
-            "Cam Vũ Trụ",
-            "Xanh Dương Đậm"
-        ],
-        "price": "41,290,000đ",
-        "info": "",
-        "images": [
-            "./asset/chi-tiet-san-pham/images/apple2/trang.png",
-            "./asset/chi-tiet-san-pham/images/apple2/cam-vu-tru.png",
-            "./asset/chi-tiet-san-pham/images/apple2/xanh-duong-dam.png"
-        ]
-    },
-    {
-        "id": 7,
-        "name": "iPhone 16 Pro 256GB Mới (LL/A)",
-        "model": null,
-        "variant": [
-            "Titan Trắng",
-            "Titan Đen",
-            "Titan Tự Nhiên",
-            "Titan Sa Mạc"
-        ],
-        "price": "25,190,000đ",
-        "info": "",
-        "images": [
-            "./asset/chi-tiet-san-pham/images/apple3/trang.jpg",
-            "./asset/chi-tiet-san-pham/images/apple3/den.jpg",
-            "./asset/chi-tiet-san-pham/images/apple3/tu-nhien.jpg",
-            "./asset/chi-tiet-san-pham/images/apple3/sa-mac.jpg"
-        ]
-    },
-    {
-        "id": 8,
-        "name": "iPhone 16E 512GB Mới (LL/A)",
-        "model": null,
-        "variant": [
-            "Trắng",
-            "Đen"
-        ],
-        "price": "16,790,000đ",
-        "info": "",
-        "images": [
-            "./asset/chi-tiet-san-pham/images/apple4/trang.webp",
-            "./asset/chi-tiet-san-pham/images/apple4/den.webp"
-        ]
-    },
-    {
-        "id": 9,
-        "name": "iPhone 15 512GB Mới (LL/A)",
-        "model": null,
-        "variant": [
-            "Xanh Dương",
-            "Đen",
-            "Hồng",
-            "Vàng"
-        ],
-        "price": "18,990,000đ",
-        "info": "",
-        "images": [
-            "./asset/chi-tiet-san-pham/images/apple5/xanh-duong.png",
-            "./asset/chi-tiet-san-pham/images/apple5/den.png",
-            "./asset/chi-tiet-san-pham/images/apple5/hong.png",
-            "./asset/chi-tiet-san-pham/images/apple5/vang.png"
-        ]
-    },
-    {
-        "id": 10,
-        "name": "iPhone 15 Pro Max 512GB Mới (VN/A)",
-        "model": null,
-        "variant": [
-            "Đen",
-            "Tự Nhiên",
-            "Xanh",
-            "Trắng"
-        ],
-        "price": "29,190,000đ",
-        "info": "",
-        "images": [
-            "./asset/chi-tiet-san-pham/images/apple6/den.jpg",
-            "./asset/chi-tiet-san-pham/images/apple6/tu-nhien.jpg",
-            "./asset/chi-tiet-san-pham/images/apple6/xanh.jpg",
-            "./asset/chi-tiet-san-pham/images/apple6/trang.jpg"
-        ]
-    },
-    {
-        "id": 11,
-        "name": "iPad Pro M5 11\" Wifi 5G 256GB Mới (Chính hãng)",
-        "model": null,
-        "variant": [
-            "Trắng",
-            "Đen"
-        ],
-        "price": "31,190,000đ",
-        "info": "",
-        "images": [
-            "./asset/chi-tiet-san-pham/images/apple7/trang.jpg",
-            "./asset/chi-tiet-san-pham/images/apple7/den.jpg"
-        ]
-    },
-    {
-        "id": 12,
-        "name": "iPad Pro M4 (2024) 11\" 16GB/2TB Wifi Mới Chính Hãng",
-        "model": null,
-        "variant": [
-            "Đen",
-            "Bạc"
-        ],
-        "price": "36,890,000đ",
-        "info": "",
-        "images": [
-            "./asset/chi-tiet-san-pham/images/apple8/den.jpg",
-            "./asset/chi-tiet-san-pham/images/apple8/bac.jpg"
-        ]
-    },
-    {
-        "id": 13,
-        "name": "iPad Air 7 M3 13\" (2025) 256GB Wifi 5G Mới (Chính Hãng)",
-        "model": null,
-        "variant": [
-            "Xám",
-            "Tím",
-            "Starlight",
-            "Xanh Dương"
-        ],
-        "price": "21,990,000đ",
-        "info": "",
-        "images": [
-            "./asset/chi-tiet-san-pham/images/apple9/xam.jpg",
-            "./asset/chi-tiet-san-pham/images/apple9/tim.jpg",
-            "./asset/chi-tiet-san-pham/images/apple9/starlight.jpg",
-            "./asset/chi-tiet-san-pham/images/apple9/xanh-duong.jpg"
-        ]
-    },
-    {
-        "id": 14,
-        "name": "Oppo Find X9 Pro 5G 16GB/512GB Mới (Chính hãng VN)",
-        "model": null,
-        "variant": [
-            "Đỏ",
-            "Trắng",
-            "Xám"
-        ],
-        "price": "26,590,000đ",
-        "info": "",
-        "images": [
-            "./asset/chi-tiet-san-pham/images/oppo1/do.jpg",
-            "./asset/chi-tiet-san-pham/images/oppo1/trang.png",
-            "./asset/chi-tiet-san-pham/images/oppo1/xam.png"
-        ]
-    },
-    {
-        "id": 15,
-        "name": "Oppo Find X9 5G 12GB/256GB Mới (Chính hãng VN)",
-        "model": null,
-        "variant": [
-            "Đen",
-            "Xám"
-        ],
-        "price": "16,890,000đ",
-        "info": "",
-        "images": [
-            "./asset/chi-tiet-san-pham/images/oppo2/den.png",
-            "./asset/chi-tiet-san-pham/images/oppo2/xam.png"
-        ]
-    },
-    {
-        "id": 16,
-        "name": "Oppo Reno 15 Pro 5G 12GB/512GB Mới (Chính hãng VN)",
-        "model": null,
-        "variant": [
-            "Xanh Dương",
-            "Nâu"
-        ],
-        "price": "15,590,000đ",
-        "info": "",
-        "images": [
-            "./asset/chi-tiet-san-pham/images/oppo3/xanh-duong.jpg",
-            "./asset/chi-tiet-san-pham/images/oppo3/nau.jpg"
-        ]
-    },
-    {
-        "id": 17,
-        "name": "Oppo Reno 14 Pro 5G 12GB/512GB Mới (Chính Hãng VN)",
-        "model": null,
-        "variant": [
-            "Trắng",
-            "Đen"
-        ],
-        "price": "15,190,000đ",
-        "info": "",
-        "images": [
-            "./asset/chi-tiet-san-pham/images/oppo4/trang.jpg",
-            "./asset/chi-tiet-san-pham/images/oppo4/den.png"
-        ]
-    },
-    {
-        "id": 18,
-        "name": "Oppo Reno 15 5G 12GB/256GB Mới (Chính hãng VN)",
-        "model": null,
-        "variant": [
-            "Xanh Dương",
-            "Trắng"
-        ],
-        "price": "11,890,000đ",
-        "info": "",
-        "images": [
-            "./asset/chi-tiet-san-pham/images/oppo5/xanh-duong.png",
-            "./asset/chi-tiet-san-pham/images/oppo5/trang.png"
-        ]
-    },
-    {
-        "id": 19,
-        "name": "Xiaomi 15 5G 12GB/512GB Mới (Chính hãng VN)",
-        "model": null,
-        "variant": [
-            "Trắng",
-            "Đen",
-            "Xanh Lá"
-        ],
-        "price": "16,190,000đ",
-        "info": "",
-        "images": [
-            "./asset/chi-tiet-san-pham/images/xiomi1/trang.jpg",
-            "./asset/chi-tiet-san-pham/images/xiomi1/den.jpg",
-            "./asset/chi-tiet-san-pham/images/xiomi1/xanh-la.jpg"
-        ]
-    },
-    {
-        "id": 20,
-        "name": "Xiaomi 15 5G 12GB/256GB Mới (Chính hãng VN)",
-        "model": null,
-        "variant": [
-            "Trắng",
-            "Đen",
-            "Xanh Lá"
-        ],
-        "price": "15,190,000đ",
-        "info": "",
-        "images": [
-            "./asset/chi-tiet-san-pham/images/xiomi2/trang.jpg",
-            "./asset/chi-tiet-san-pham/images/xiomi2/den.jpg",
-            "./asset/chi-tiet-san-pham/images/xiomi2/xanh-la.jpg"
-        ]
-    },
-    {
-        "id": 21,
-        "name": "Xiaomi 15T Pro 5G 12GB/512GB Mới (Chính hãng VN)",
-        "model": null,
-        "variant": [
-            "Đen",
-            "Vàng",
-            "Xám"
-        ],
-        "price": "13,990,000đ",
-        "info": "",
-        "images": [
-            "./asset/chi-tiet-san-pham/images/xiomi3/den.jpg",
-            "./asset/chi-tiet-san-pham/images/xiomi3/vang.jpg",
-            "./asset/chi-tiet-san-pham/images/xiomi3/xam.jpg"
-        ]
-    },
-    {
-        "id": 22,
-        "name": "Xiaomi 15T 5G 12GB/256GB Mới (Chính hãng VN)",
-        "model": null,
-        "variant": [
-            "Đen",
-            "Vàng",
-            "Xám"
-        ],
-        "price": "9,290,000đ",
-        "info": "",
-        "images": [
-            "./asset/chi-tiet-san-pham/images/xiomi3/den.jpg",
-            "./asset/chi-tiet-san-pham/images/xiomi3/vang.jpg",
-            "./asset/chi-tiet-san-pham/images/xiomi3/xam.jpg"
-        ]
-    },
-    {
-        "id": 23,
-        "name": "Vivo V60 5G 12GB/256GB Mới (Chính hãng VN)",
-        "model": null,
-        "variant": [
-            "Tím",
-            "Xám"
-        ],
-        "price": "11,390,000đ",
-        "info": "",
-        "images": [
-            "./asset/chi-tiet-san-pham/images/vivo1/tim.jpg",
-            "./asset/chi-tiet-san-pham/images/vivo1/xam.jpg"
-        ]
-    },
-    {
-        "id": 24,
-        "name": "Vivo V60 Lite 5G 8GB/256GB Mới (Chính hãng VN)",
-        "model": null,
-        "variant": [
-            "Xanh Dương",
-            "Đen",
-            "Hồng"
-        ],
-        "price": "7,190,000đ",
-        "info": "",
-        "images": [
-            "./asset/chi-tiet-san-pham/images/vivo2/xanh-duong.jpg",
-            "./asset/chi-tiet-san-pham/images/vivo2/den.jpg",
-            "./asset/chi-tiet-san-pham/images/vivo2/hong.jpg"
-        ]
-    },
-    {
-        "id": 25,
-        "name": "Apple Airpods Max 2024 Mới (Chính Hãng)",
-        "model": [
-            {
-                "modelName": "ZA/A (Chính hãng Việt Nam)",
-                "modelPrice": "11,990,000đ"
-            },
-            {
-                "modelName": "AM/A (Mỹ)",
-                "modelPrice": "11,290,000đ"   
-            }
-        ],
-        "variant": [
-            "Xanh Dương",
-            "Trắng",
-            "Đen",
-            "Tím"
-        ],
-        "price": "10,290,000đ",
-        "info": "",
-        "images": [
-            "./asset/chi-tiet-san-pham/images/pk1/xanh-duong.webp",
-            "./asset/chi-tiet-san-pham/images/pk1/trang.webp",
-            "./asset/chi-tiet-san-pham/images/pk1/den.webp",
-            "./asset/chi-tiet-san-pham/images/pk1/tim.webp"
-        ]
-    },
-    {
-        "id": 26,
-        "name": "Apple Airpods Pro 3 Mới (Chính hãng)",
-        "model": [
-            {
-                "modelName": "Việt Nam",
-                "modelPrice": "6,390,000đ"
-            },
-            {
-                "modelName": "Mỹ",
-                "modelPrice": "6,290,000đ"   
-            }
-        ],
-        "variant": null,
-        "price": "5,290,000đ",
-        "info": "",
-        "images": [
-            "./asset/chi-tiet-san-pham/images/pk2/pk2.jpg"
-        ]
-    },
-    {
-        "id": 27,
-        "name": "Apple Airpods 4 (Khử Tiếng Ồn) - Chính Hãng",
-        "model": [
-            {
-                "modelName": "Việt Nam",
-                "modelPrice": "3,990,000đ"
-            },
-            {
-                "modelName": "Mỹ",
-                "modelPrice": "3,690,000đ"   
-            }
-        ],
-        "variant": null,
-        "price": "2,690,000đ",
-        "info": "",
-        "images": [
-            "./asset/chi-tiet-san-pham/images/pk3/pk3.png"
-        ]
-    },
-    {
-        "id": 28,
-        "name": "Apple Airpods 3 Magsafe Mới (Chính Hãng)",
-        "model": [
-            {
-                "modelName": "ZA/A (Chính hãng Việt Nam)",
-                "modelPrice": "2,890,000đ"
-            },
-            {
-                "modelName": "AM/A (Mỹ)",
-                "modelPrice": "2,790,000đ"   
-            }
-        ],
-        "variant": null,
-        "price": "1,790,000đ",
-        "info": "",
-        "images": [
-            "./asset/chi-tiet-san-pham/images/pk4/pk4.jpg"
-        ]
-    },
-    {
-        "id": 29,
-        "name": "Ốp lưng Clear Case MagSafe Chính hãng cho iPhone 16 Pro Max",
-        "model": null,
-        "variant": null,
-        "price": "950,000đ",
-        "info": "",
-        "images": [
-            "./asset/chi-tiet-san-pham/images/pk5/pk5.jpg"
-        ]
-    },
-    {
-        "id": 30,
-        "name": "Ốp lưng Clear Case MagSafe Chính hãng cho iPhone 16 Pro",
-        "model": null,
-        "variant": null,
-        "price": "900,000đ",
-        "info": "",
-        "images": [
-            "./asset/chi-tiet-san-pham/images/pk6/pk6.jpg"
-        ]
-    },
-    {
-        "id": 31,
-        "name": "Kính Cường lực Full trong suốt ANANK iPhone (từ X đến 14 Pro Max)",
-        "model": null,
-        "variant": null,
-        "price": "280,000đ",
-        "info": "",
-        "images": [
-            "./asset/chi-tiet-san-pham/images/pk7/pk7.jpg"
-        ]
-    },
-    {
-        "id": 32,
-        "name": "Pin sạc dự phòng Samsung 10.000mAh Type C PD 25W EB-P3400 Mới",
-        "model": null,
-        "variant": null,
-        "price": "590,000đ ",
-        "info": "",
-        "images": [
-            "./asset/chi-tiet-san-pham/images/pk8/pk8.jpg"
-        ]
-    }
+  {
+    "id": 1,
+    "name": "Samsung Galaxy S25 FE 5G 8GB/512GB Mới (Chính Hãng VN)",
+    "model": null,
+    "variant": ["Trắng", "Đen", "Xanh Navy", "Xanh Icy"],
+    "price": "14,990,000đ",
+    "info": "",
+    "images": [
+      "./asset/chi-tiet-san-pham/images/samsung-s25-fe/trang.png",
+      "./asset/chi-tiet-san-pham/images/samsung-s25-fe/den.png",
+      "./asset/chi-tiet-san-pham/images/samsung-s25-fe/xanh-navy.png",
+      "./asset/chi-tiet-san-pham/images/samsung-s25-fe/xanh-icy.png"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "iPhone 17 Pro 1TB Mới (VN/A)",
+    "model": null,
+    "variant": ["Trắng", "Cam Vũ Trụ", "Xanh Dương Đậm"],
+    "price": "40,990,000đ",
+    "info": "",
+    "images": [
+      "./asset/chi-tiet-san-pham/images/apple1/trang.png",
+      "./asset/chi-tiet-san-pham/images/apple1/cam-vu-tru.png",
+      "./asset/chi-tiet-san-pham/images/apple1/xanh-duong-dam.png"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Oppo Find X9 Pro 5G 16GB/512GB Mới (Chính hãng VN)",
+    "model": null,
+    "variant": ["Đỏ", "Trắng", "Xám"],
+    "price": "26,590,000đ",
+    "info": "",
+    "images": [
+      "./asset/chi-tiet-san-pham/images/oppo1/do.jpg",
+      "./asset/chi-tiet-san-pham/images/oppo1/trang.png",
+      "./asset/chi-tiet-san-pham/images/oppo1/xam.png"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Xiaomi 15 5G 12GB/512GB Mới (Chính hãng VN)",
+    "model": null,
+    "variant": ["Trắng", "Đen", "Xanh Lá"],
+    "price": "16,190,000đ",
+    "info": "",
+    "images": [
+      "./asset/chi-tiet-san-pham/images/xiomi1/trang.jpg",
+      "./asset/chi-tiet-san-pham/images/xiomi1/den.jpg",
+      "./asset/chi-tiet-san-pham/images/xiomi1/xanh-la.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Vivo V60 5G 12GB/256GB Mới (Chính hãng VN)",
+    "model": null,
+    "variant": ["Tím", "Xám"],
+    "price": "11,390,000đ",
+    "info": "",
+    "images": [
+      "./asset/chi-tiet-san-pham/images/vivo1/tim.jpg",
+      "./asset/chi-tiet-san-pham/images/vivo1/xam.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Apple Airpods Max 2024 Mới (Chính Hãng)",
+    "model": [
+      {
+        "modelName": "ZA/A (Chính hãng Việt Nam)",
+        "modelPrice": "11,990,000đ"
+      },
+      {
+        "modelName": "AM/A (Mỹ)",
+        "modelPrice": "11,290,000đ"
+      }
+    ],
+    "variant": ["Xanh Dương", "Trắng", "Đen", "Tím"],
+    "price": "10,290,000đ",
+    "info": "",
+    "images": [
+      "./asset/chi-tiet-san-pham/images/pk1/xanh-duong.webp",
+      "./asset/chi-tiet-san-pham/images/pk1/trang.webp",
+      "./asset/chi-tiet-san-pham/images/pk1/den.webp",
+      "./asset/chi-tiet-san-pham/images/pk1/tim.webp"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Apple Airpods Pro 3 Mới (Chính hãng)",
+    "model": [
+      {
+        "modelName": "Việt Nam",
+        "modelPrice": "6,390,000đ"
+      },
+      {
+        "modelName": "Mỹ",
+        "modelPrice": "6,290,000đ"
+      }
+    ],
+    "variant": null,
+    "price": "5,290,000đ",
+    "info": "",
+    "images": ["./asset/chi-tiet-san-pham/images/pk2/pk2.jpg"]
+  }
 ]
