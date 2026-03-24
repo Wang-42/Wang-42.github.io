@@ -1,108 +1,1234 @@
 [
   {
-    "id": 1,
-    "name": "Samsung Galaxy S25 FE 5G 8GB/512GB Mới (Chính Hãng VN)",
-    "model": null,
-    "variant": ["Trắng", "Đen", "Xanh Navy", "Xanh Icy"],
-    "price": "14,990,000đ",
-    "info": "",
-    "images": [
-      "./asset/chi-tiet-san-pham/images/samsung-s25-fe/trang.png",
-      "./asset/chi-tiet-san-pham/images/samsung-s25-fe/den.png",
-      "./asset/chi-tiet-san-pham/images/samsung-s25-fe/xanh-navy.png",
-      "./asset/chi-tiet-san-pham/images/samsung-s25-fe/xanh-icy.png"
-    ]
-  },
-  {
-    "id": 2,
-    "name": "iPhone 17 Pro 1TB Mới (VN/A)",
-    "model": null,
-    "variant": ["Trắng", "Cam Vũ Trụ", "Xanh Dương Đậm"],
-    "price": "40,990,000đ",
-    "info": "",
-    "images": [
-      "./asset/chi-tiet-san-pham/images/apple1/trang.png",
-      "./asset/chi-tiet-san-pham/images/apple1/cam-vu-tru.png",
-      "./asset/chi-tiet-san-pham/images/apple1/xanh-duong-dam.png"
-    ]
-  },
-  {
-    "id": 3,
-    "name": "Oppo Find X9 Pro 5G 16GB/512GB Mới (Chính hãng VN)",
-    "model": null,
-    "variant": ["Đỏ", "Trắng", "Xám"],
-    "price": "26,590,000đ",
-    "info": "",
-    "images": [
-      "./asset/chi-tiet-san-pham/images/oppo1/do.jpg",
-      "./asset/chi-tiet-san-pham/images/oppo1/trang.png",
-      "./asset/chi-tiet-san-pham/images/oppo1/xam.png"
-    ]
-  },
-  {
-    "id": 4,
-    "name": "Xiaomi 15 5G 12GB/512GB Mới (Chính hãng VN)",
-    "model": null,
-    "variant": ["Trắng", "Đen", "Xanh Lá"],
-    "price": "16,190,000đ",
-    "info": "",
-    "images": [
-      "./asset/chi-tiet-san-pham/images/xiomi1/trang.jpg",
-      "./asset/chi-tiet-san-pham/images/xiomi1/den.jpg",
-      "./asset/chi-tiet-san-pham/images/xiomi1/xanh-la.jpg"
-    ]
-  },
-  {
-    "id": 5,
-    "name": "Vivo V60 5G 12GB/256GB Mới (Chính hãng VN)",
-    "model": null,
-    "variant": ["Tím", "Xám"],
-    "price": "11,390,000đ",
-    "info": "",
-    "images": [
-      "./asset/chi-tiet-san-pham/images/vivo1/tim.jpg",
-      "./asset/chi-tiet-san-pham/images/vivo1/xam.jpg"
-    ]
-  },
-  {
-    "id": 6,
-    "name": "Apple Airpods Max 2024 Mới (Chính Hãng)",
-    "model": [
+    "id": "1",
+    "slug": "samsung-galaxy-z-fold7",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "full_name": "Samsung Galaxy Z Fold7 5G 12GB/256GB",
+    "short_name": "Galaxy Z Fold7",
+    "pricing": {
+      "original_price": 46990000,
+      "discount_percent": 10,
+      "sale_price": 41990000
+    },
+    "colors": [
       {
-        "modelName": "ZA/A (Chính hãng Việt Nam)",
-        "modelPrice": "11,990,000đ"
+        "variant": "Xám Metal",
+        "image": "./asset/chi-tiet-san-pham/images/samsung-galaxy-z-fold7/xam.png"
       },
       {
-        "modelName": "AM/A (Mỹ)",
-        "modelPrice": "11,290,000đ"
-      }
-    ],
-    "variant": ["Xanh Dương", "Trắng", "Đen", "Tím"],
-    "price": "10,290,000đ",
-    "info": "",
-    "images": [
-      "./asset/chi-tiet-san-pham/images/pk1/xanh-duong.webp",
-      "./asset/chi-tiet-san-pham/images/pk1/trang.webp",
-      "./asset/chi-tiet-san-pham/images/pk1/den.webp",
-      "./asset/chi-tiet-san-pham/images/pk1/tim.webp"
-    ]
-  },
-  {
-    "id": 7,
-    "name": "Apple Airpods Pro 3 Mới (Chính hãng)",
-    "model": [
-      {
-        "modelName": "Việt Nam",
-        "modelPrice": "6,390,000đ"
+        "variant": "Đen Jet",
+        "image": "./asset/chi-tiet-san-pham/images/samsung-galaxy-z-fold7/den.png"
       },
       {
-        "modelName": "Mỹ",
-        "modelPrice": "6,290,000đ"
+        "variant": "Xanh Navy",
+        "image": "./asset/chi-tiet-san-pham/images/samsung-galaxy-z-fold7/xanh-navy.png"
+      },
+      {
+        "variant": "Xanh Mint",
+        "image": "./asset/chi-tiet-san-pham/images/samsung-galaxy-z-fold7/xanh-mint.png"
       }
     ],
-    "variant": null,
-    "price": "5,290,000đ",
-    "info": "",
-    "images": ["./asset/chi-tiet-san-pham/images/pk2/pk2.jpg"]
+    "os": "Android 16",
+    "display": "Dynamic AMOLED 2X, chính 8.0 inch & phụ 6.5 inch, 120Hz",
+    "chip": "Qualcomm Snapdragon 8 Elite For Galaxy 8 nhân",
+    "ram_rom": "12GB / 256GB",
+    "main_camera": "200MP (chính) + 12MP (ultrawide) + 10MP (tele)",
+    "selfie_camera": "10MP (trong) + 10MP (ngoài)",
+    "durability": "Kháng nước, bụi IP48",
+    "description": {
+      "intro": [
+        "Samsung Galaxy Z Fold7 là mẫu điện thoại gập cao cấp tập trung vào trải nghiệm làm việc và giải trí trên màn hình lớn. Máy nổi bật với thiết kế gập mỏng nhẹ hơn, màn hình chính 8 inch, camera độ phân giải cao và hiệu năng mạnh để xử lý đa nhiệm, chỉnh sửa nội dung hay chơi game nặng.",
+        "Điểm đáng chú ý của Galaxy Z Fold7 là khả năng kết hợp giữa tính cơ động của một smartphone và không gian hiển thị gần như tablet khi mở ra. Nhờ đó người dùng có thể đọc tài liệu, chia đôi nhiều ứng dụng và xem nội dung trực quan hơn trong cùng một thiết bị.",
+        "Bên trong máy là bộ xử lý Snapdragon thế hệ mới, đi cùng bộ nhớ lớn và hệ thống tối ưu cho các tác vụ cao cấp. Mẫu máy này phù hợp với người dùng muốn một thiết bị flagship khác biệt, mạnh về đa nhiệm, chụp ảnh và sử dụng linh hoạt trong công việc hằng ngày."
+      ],
+      "sections": [
+        {
+          "title": "Màn hình gập lớn, tối ưu đa nhiệm",
+          "content": "Galaxy Z Fold7 sở hữu màn hình chính 8 inch cùng màn hình ngoài tỷ lệ 21:9, giúp thao tác ở chế độ gập hay mở đều thuận tiện. Không gian hiển thị rộng tạo lợi thế rõ rệt khi làm việc song song nhiều ứng dụng, xem video, đọc văn bản dài hoặc xử lý nội dung trực quan."
+        },
+        {
+          "title": "Camera độ phân giải cao, hiệu năng flagship",
+          "content": "Máy được CellphoneS giới thiệu với camera 200MP cùng nền tảng xử lý hình ảnh hỗ trợ tối ưu màu sắc và chi tiết. Kết hợp với chip Snapdragon thế hệ mới, Galaxy Z Fold7 mang lại trải nghiệm nhanh, mượt cho cả công việc nặng lẫn giải trí cao cấp trên thiết bị màn hình gập."
+        }
+      ]
+    }
+  },
+  {
+    "id": "2",
+    "slug": "samsung-galaxy-s26-ultra-12gb-256gb",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "full_name": "Samsung Galaxy S26 Ultra 5G 12GB/256GB",
+    "short_name": "Galaxy S26 Ultra",
+    "pricing": {
+      "original_price": 36990000,
+      "discount_percent": 8,
+      "sale_price": 33990000
+    },
+    "colors": [
+      {
+        "variant": "Đen Classic",
+        "image": "./asset/chi-tiet-san-pham/images/samsung-galaxy-s26-ultra/den.png"
+      },
+      {
+        "variant": "Trắng Classic",
+        "image": "./asset/chi-tiet-san-pham/images/samsung-galaxy-s26-ultra/trang.png"
+      },
+      {
+        "variant": "Tím Cobalt",
+        "image": "./asset/chi-tiet-san-pham/images/samsung-galaxy-s26-ultra/tim.png"
+      }
+    ],
+    "os": "Android 16",
+    "display": "Dynamic AMOLED 2X 6.9 inch, QHD+ (1440 x 3120), 1-120Hz",
+    "chip": "Qualcomm Snapdragon 8 Elite Gen 5 For Galaxy 8 nhân",
+    "ram_rom": "12GB / 256GB",
+    "main_camera": "200MP (chính) + 50MP (ultrawide) + 50MP (tele 5x) + 10MP (tele 3x)",
+    "selfie_camera": "12MP",
+    "durability": "Kháng nước IP68, khung Armor Aluminum cải tiến, kính Gorilla Glass Armor 2",
+    "description": {
+      "intro": [
+        "Samsung Galaxy S26 Ultra 12GB/256GB là mẫu flagship hướng đến người dùng cần cấu hình mạnh, camera đa tiêu cự và màn hình độ phân giải cao. Thiết bị nổi bật với màn hình Dynamic AMOLED 2X 6.9 inch, cụm camera 200MP và vi xử lý Snapdragon 8 Elite Gen 5 dành cho Galaxy.",
+        "Phiên bản này phù hợp với nhu cầu sử dụng cường độ cao như chụp ảnh, quay video, chơi game nặng, làm việc di động và xử lý đa nhiệm trong thời gian dài. Với RAM 12GB và bộ nhớ trong 256GB, máy đáp ứng tốt cả hiệu suất lẫn nhu cầu lưu trữ phổ biến.",
+        "Galaxy S26 Ultra còn cho thấy định hướng cao cấp rất rõ ở phần hiển thị, camera zoom và thời lượng sử dụng. Đây là lựa chọn phù hợp cho người dùng muốn một chiếc điện thoại Android đầu bảng có trải nghiệm toàn diện ở nhiều khía cạnh."
+      ],
+      "sections": [
+        {
+          "title": "Màn hình lớn, sắc nét và sáng mạnh",
+          "content": "Máy dùng màn hình Dynamic AMOLED 2X kích thước 6.9 inch với độ phân giải 3120 x 1440 pixels, cho không gian hiển thị rộng và chi tiết cao. Đây là lợi thế rõ rệt khi xem phim, đọc nội dung, xử lý hình ảnh hoặc sử dụng ngoài trời."
+        },
+        {
+          "title": "Cụm camera đa tiêu cự cho nhu cầu cao cấp",
+          "content": "Theo thông tin CellphoneS, Galaxy S26 Ultra được trang bị camera góc rộng 200MP, camera siêu rộng 50MP, tele 5x 50MP và tele 3x 10MP. Cấu hình này giúp máy chụp linh hoạt từ phong cảnh, chân dung đến các tình huống cần zoom quang học, phù hợp với người thích chụp ảnh và quay video trên điện thoại."
+        }
+      ]
+    }
+  },
+  {
+    "id": "3",
+    "slug": "samsung-galaxy-z-fold6",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "full_name": "Samsung Galaxy Z Fold6 5G 12GB/256GB",
+    "short_name": "Galaxy Z Fold6",
+    "pricing": {
+      "original_price": 43990000,
+      "discount_percent": 5,
+      "sale_price": 41900000
+    },
+    "colors": [
+      {
+        "variant": "Đen",
+        "image": "./asset/chi-tiet-san-pham/images/samsung-galaxy-z-fold6/den.png"
+      },
+      {
+        "variant": "Xám",
+        "image": "./asset/chi-tiet-san-pham/images/samsung-galaxy-z-fold6/xam.png"
+      },
+      {
+        "variant": "Hồng",
+        "image": "./asset/chi-tiet-san-pham/images/samsung-galaxy-z-fold6/hong.webp"
+      },
+      {
+        "variant": "Trắng",
+        "image": "./asset/chi-tiet-san-pham/images/samsung-galaxy-z-fold6/trang.jpg"
+      }
+    ],
+    "os": "Android 14",
+    "display": "Dynamic AMOLED 2X, chính 7.6 inch & phụ 6.3 inch, 120Hz",
+    "chip": "Snapdragon 8 Gen 3 for Galaxy",
+    "ram_rom": "12GB / 256GB",
+    "main_camera": "50MP (chính) + 12MP (ultrawide) + 10MP (tele)",
+    "selfie_camera": "10MP + 4MP",
+    "durability": "Kháng nước, bụi IP48",
+    "description": {
+      "intro": [
+        "Samsung Galaxy Z Fold6 là thế hệ điện thoại gập cao cấp tập trung vào hiệu suất mạnh, màn hình lớn và trải nghiệm sử dụng linh hoạt giữa điện thoại và tablet. Máy nổi bật với màn hình chính 7.6 inch Dynamic AMOLED 2X, chip Snapdragon 8 Gen 3 for Galaxy và thiết kế gập tối ưu cho đa nhiệm.",
+        "Khi gập lại, Galaxy Z Fold6 vẫn đủ gọn để sử dụng như smartphone hằng ngày; khi mở ra, không gian hiển thị lớn giúp việc xem tài liệu, chỉnh sửa nội dung, họp trực tuyến hoặc giải trí trở nên thoải mái hơn đáng kể. Đây là dòng máy phù hợp với người dùng thích sự khác biệt và cần màn hình lớn trong một thiết bị di động.",
+        "Ngoài hiệu năng mạnh, Galaxy Z Fold6 còn có hệ thống camera đa dụng và thời lượng pin đủ cho nhu cầu sử dụng cao cấp trong ngày. Mẫu máy này cân bằng tốt giữa tính công nghệ, trải nghiệm gập mở và sự thực dụng khi dùng hàng ngày."
+      ],
+      "sections": [
+        {
+          "title": "Màn hình lớn cho công việc và giải trí",
+          "content": "Điểm mạnh lớn nhất của Galaxy Z Fold6 nằm ở màn hình chính 7.6 inch Dynamic AMOLED 2X, mang lại không gian thao tác rộng hơn hẳn smartphone truyền thống. Điều này đặc biệt hữu ích khi mở nhiều cửa sổ, xem video, đọc tài liệu hoặc làm việc di động."
+        },
+        {
+          "title": "Hiệu năng mạnh với chip Snapdragon 8 Gen 3 for Galaxy",
+          "content": "Theo CellphoneS, máy dùng Snapdragon 8 Gen 3 for Galaxy cùng RAM 12GB và bộ nhớ trong 256GB ở bản tiêu chuẩn. Cấu hình này giúp Galaxy Z Fold6 xử lý mượt các tác vụ nặng, chơi game tốt và đáp ứng ổn định những nhu cầu đa nhiệm vốn là thế mạnh của dòng điện thoại gập."
+        }
+      ]
+    }
+  },
+  {
+    "id": "4",
+    "slug": "samsung-galaxy-s25-fe-5g-8gb-128gb",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "full_name": "Samsung Galaxy S25 FE 5G 8GB/128GB",
+    "short_name": "Galaxy S25 FE",
+    "pricing": {
+      "original_price": 16690000,
+      "discount_percent": 20,
+      "sale_price": 13290000
+    },
+    "colors": [
+      {
+        "variant": "Xanh dương nhạt",
+        "image": "./asset/chi-tiet-san-pham/images/samsung-s25-fe/xanh-icy.png"
+      },
+      {
+        "variant": "Xanh Navy",
+        "image": "./asset/chi-tiet-san-pham/images/samsung-s25-fe/xanh-navy.png"
+      },
+      {
+        "variant": "Trắng",
+        "image": "./asset/chi-tiet-san-pham/images/samsung-s25-fe/trang.png"
+      },
+      {
+        "variant": "Đen",
+        "image": "./asset/chi-tiet-san-pham/images/samsung-s25-fe/den.png"
+      }
+    ],
+    "os": "Android 16",
+    "display": "Dynamic AMOLED 2X 6.7 inch, Full HD+, 120Hz",
+    "chip": "Exynos 2400 10 nhân",
+    "ram_rom": "8GB / 128GB",
+    "main_camera": "50MP (chính) + 12MP (ultrawide) + 8MP (telephoto)",
+    "selfie_camera": "12MP",
+    "durability": "Kháng nước, bụi IP68",
+    "description": {
+      "intro": [
+        "Samsung Galaxy S25 FE là mẫu smartphone cận cao cấp hướng tới trải nghiệm cân bằng giữa màn hình đẹp, hiệu năng mạnh và camera đa dụng. Máy sở hữu màn hình Dynamic AMOLED 2X 6.7 inch, chip Exynos 2400, bộ ba camera 50MP + 12MP + 8MP và pin 4900mAh hỗ trợ sạc nhanh 45W.",
+        "Điểm nổi bật của Galaxy S25 FE là khả năng mang lại nhiều trải nghiệm gần với dòng cao cấp nhưng vẫn giữ mức giá dễ tiếp cận hơn. Thiết bị phù hợp với người dùng muốn một chiếc điện thoại dùng lâu dài cho cả giải trí, chụp ảnh, học tập và công việc hằng ngày.",
+        "Ngoài phần cứng, máy còn được nhấn mạnh ở nhóm tính năng AI nâng cao và kết nối hiện đại như 5G, Wi-Fi 6E, Bluetooth 5.4. Nhờ đó Galaxy S25 FE phù hợp với người cần thiết bị toàn diện, dễ dùng và đủ mạnh cho hầu hết nhu cầu phổ biến hiện nay."
+      ],
+      "sections": [
+        {
+          "title": "Màn hình đẹp, hiển thị mượt",
+          "content": "Galaxy S25 FE được CellphoneS giới thiệu với màn hình Dynamic AMOLED 2X 6.7 inch độ phân giải Full HD+ và tần số quét 120Hz. Cấu hình này mang lại trải nghiệm hiển thị sống động, cuộn chạm mượt và phù hợp để xem phim, lướt web hay chơi game trong thời gian dài."
+        },
+        {
+          "title": "Camera và pin phục vụ tốt nhu cầu hằng ngày",
+          "content": "Máy dùng hệ thống camera 50MP + 12MP + 8MP, hỗ trợ zoom quang 3x ở phần mô tả của CellphoneS, đủ linh hoạt cho chụp phong cảnh, chân dung và ảnh đêm. Bên cạnh đó, viên pin 4900mAh cùng sạc nhanh 45W giúp thiết bị đáp ứng tốt nhịp sử dụng cả ngày."
+        }
+      ]
+    }
+  },
+  {
+    "id": "5",
+    "slug": "samsung-galaxy-s24-256gb-5g",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "full_name": "Samsung Galaxy S24 5G 8GB/256GB",
+    "short_name": "Galaxy S24",
+    "pricing": {
+      "original_price": 20610000,
+      "discount_percent": 32,
+      "sale_price": 13990000
+    },
+    "colors": [
+      {
+        "variant": "Xanh da trời",
+        "image": "./asset/chi-tiet-san-pham/images/samsung-galaxy-s24/xanh-da-troi.png"
+      },
+      {
+        "variant": "Xám",
+        "image": "./asset/chi-tiet-san-pham/images/samsung-galaxy-s24/xam.png"
+      },
+      {
+        "variant": "Đen",
+        "image": "./asset/chi-tiet-san-pham/images/samsung-galaxy-s24/den.png"
+      },
+      {
+        "variant": "Xanh Mint",
+        "image": "./asset/chi-tiet-san-pham/images/samsung-galaxy-s24/xanh-mint.png"
+      }
+    ],
+    "os": "Android 14",
+    "display": "Dynamic AMOLED 2X 6.2 inch, Full HD+, 120Hz",
+    "chip": "Exynos 2400 10 nhân",
+    "ram_rom": "8GB / 256GB",
+    "main_camera": "50MP (chính) + 12MP (ultrawide) + 10MP (tele)",
+    "selfie_camera": "12MP",
+    "durability": "Kháng nước, bụi IP68",
+    "description": {
+      "intro": [
+        "Samsung Galaxy S24 là mẫu flagship nhỏ gọn dành cho người dùng thích điện thoại cao cấp nhưng vẫn ưu tiên cảm giác cầm nắm thoải mái. Máy được trang bị màn hình Dynamic AMOLED 2X 6.2 inch, chip Exynos 2400, RAM 8GB và cụm camera sau 50MP + 10MP + 12MP.",
+        "So với nhiều mẫu máy màn hình lớn, Galaxy S24 nổi bật ở sự cân bằng giữa hiệu năng, tính di động và khả năng sử dụng bằng một tay. Đây là lựa chọn phù hợp với người dùng muốn một thiết bị gọn, đẹp, mạnh và vẫn có đầy đủ các tính năng cao cấp của dòng Galaxy S.",
+        "CellphoneS cũng nhấn mạnh những tiện ích Galaxy AI như dịch thuật trực tiếp và tìm kiếm bằng hình ảnh, giúp Galaxy S24 không chỉ mạnh về phần cứng mà còn thuận tiện hơn trong các tình huống sử dụng thực tế hằng ngày."
+      ],
+      "sections": [
+        {
+          "title": "Nhỏ gọn nhưng vẫn mang chất lượng hiển thị cao cấp",
+          "content": "Galaxy S24 sở hữu màn hình 6.2 inch Dynamic AMOLED 2X với thiết kế viền mỏng, cho cảm giác hiện đại và dễ cầm. Kích thước này phù hợp với người thích smartphone gọn gàng nhưng vẫn muốn có trải nghiệm hình ảnh sắc nét, màu sắc đẹp và hiển thị tốt ngoài trời."
+        },
+        {
+          "title": "Hiệu năng mạnh cùng các tính năng Galaxy AI",
+          "content": "Máy dùng chip Exynos 2400 10 nhân đi kèm RAM 8GB và bộ nhớ trong 256GB ở phiên bản CellphoneS đang giới thiệu. Kết hợp với cụm camera 50MP + 10MP + 12MP và các tính năng AI như dịch trực tiếp hay tìm kiếm bằng hình ảnh, Galaxy S24 phù hợp cho người cần một flagship gọn nhưng đa dụng."
+        }
+      ]
+    }
+  },
+  {
+    "id": "6",
+    "slug": "iphone-17-pro-1tb",
+    "brand": "Apple",
+    "category": "smartphone",
+    "full_name": "Apple iPhone 17 Pro 1TB",
+    "short_name": "iPhone 17 Pro",
+    "pricing": {
+      "original_price": 47990000,
+      "discount_percent": 2,
+      "sale_price": 46590000
+    },
+    "colors": [
+      {
+        "variant": "Bạc",
+        "image": "./asset/chi-tiet-san-pham/images/iphone-17-pro/bac.png"
+      },
+      {
+        "variant": "Cam Vũ Trụ",
+        "image": "./asset/chi-tiet-san-pham/images/iphone-17-pro/cam-vu-tru.png"
+      },
+      {
+        "variant": "Xanh đậm",
+        "image": "./asset/chi-tiet-san-pham/images/iphone-17-pro/xanh-duong-dam.png"
+      }
+    ],
+    "os": "iOS 26",
+    "display": "Super Retina XDR 6.3 inch, ProMotion 120Hz",
+    "chip": "Apple A19 Pro 6 nhân",
+    "ram_rom": "Hãng không công bố / 1TB",
+    "main_camera": "48MP (chính) + 48MP (ultrawide) + 48MP (telephoto)",
+    "selfie_camera": "18MP",
+    "durability": "Kháng nước, bụi IP68",
+    "description": {
+      "intro": [
+        "iPhone 17 Pro là mẫu smartphone cao cấp hướng tới người dùng cần công nghệ mới, hiệu năng mạnh và camera chất lượng cao trong một thiết kế hiện đại. Thiết bị phù hợp với người muốn trải nghiệm dòng Pro mới với nhiều nâng cấp về tốc độ, khả năng quay chụp và sử dụng lâu dài.",
+        "Dòng máy này được định hướng cho nhóm người dùng cần smartphone cao cấp phục vụ cả công việc và giải trí, đặc biệt là những ai yêu cầu cao về khả năng xử lý, hiển thị và độ ổn định của hệ điều hành. Đây là lựa chọn phù hợp với người dùng thích công nghệ mới nhưng vẫn muốn giữ kích thước máy ở mức gọn hơn bản Pro Max.",
+        "Ngoài hiệu năng, iPhone 17 Pro còn được kỳ vọng tiếp tục phát huy lợi thế của dòng Pro về khả năng quay chụp, độ hoàn thiện và tính đồng bộ trong hệ sinh thái Apple. Đây là một trong những mẫu máy đáng chú ý với người dùng muốn đầu tư vào iPhone cao cấp."
+      ],
+      "sections": [
+        {
+          "title": "Hiệu năng mới cho trải nghiệm cao cấp",
+          "content": "iPhone 17 Pro phù hợp với người dùng cần một chiếc điện thoại mạnh để xử lý nhanh các tác vụ từ cơ bản đến nâng cao. Máy có thể đáp ứng tốt nhu cầu chơi game, quay chụp, chỉnh sửa nội dung và sử dụng đa nhiệm trong thời gian dài."
+        },
+        {
+          "title": "Thiết kế và camera phục vụ người dùng khó tính",
+          "content": "Thế mạnh của dòng Pro luôn nằm ở sự cân bằng giữa hiệu năng, vật liệu hoàn thiện và khả năng camera. iPhone 17 Pro được xem là lựa chọn phù hợp cho người dùng muốn chất lượng cao ở cả trải nghiệm cầm nắm, hiển thị lẫn sáng tạo nội dung hằng ngày."
+        }
+      ]
+    }
+  },
+  {
+    "id": "7",
+    "slug": "iphone-17-pro-max-512gb",
+    "brand": "Apple",
+    "category": "smartphone",
+    "full_name": "Apple iPhone 17 Pro Max 512GB",
+    "short_name": "iPhone 17 Pro Max",
+    "pricing": {
+      "original_price": 44490000,
+      "discount_percent": 1,
+      "sale_price": 44290000
+    },
+    "colors": [
+      {
+        "variant": "Cam Vũ Trụ",
+        "image": "./asset/chi-tiet-san-pham/images/iphone-17-pro-max/cam-vu-tru.png"
+      },
+      {
+        "variant": "Bạc",
+        "image": "./asset/chi-tiet-san-pham/images/iphone-17-pro-max/bac.png"
+      },
+      {
+        "variant": "Xanh đậm",
+        "image": "./asset/chi-tiet-san-pham/images/iphone-17-pro-max/xanh-duong-dam.png"
+      }
+    ],
+    "os": "iOS 26",
+    "display": "Super Retina XDR 6.9 inch, ProMotion 120Hz",
+    "chip": "Apple A19 Pro 6 nhân",
+    "ram_rom": "Hãng không công bố / 512GB",
+    "main_camera": "48MP (chính) + 48MP (ultrawide) + 48MP (telephoto)",
+    "selfie_camera": "18MP",
+    "durability": "Kháng nước, bụi IP68",
+    "description": {
+      "intro": [
+        "iPhone 17 Pro Max là mẫu smartphone đầu bảng hướng tới người dùng cần màn hình lớn, pin tốt, hiệu năng mạnh và camera cao cấp cho các nhu cầu sử dụng cường độ cao. Đây là dòng máy phù hợp với người dùng muốn trải nghiệm iPhone toàn diện nhất ở phân khúc cao cấp.",
+        "Thiết bị đặc biệt phù hợp với người thường xuyên xem nội dung, xử lý công việc trên điện thoại, quay chụp nhiều hoặc cần thời lượng sử dụng tốt trong ngày. Với lợi thế về kích thước hiển thị và pin, iPhone 17 Pro Max mang lại cảm giác phù hợp cho cả công việc lẫn giải trí dài giờ.",
+        "Ngoài trải nghiệm cao cấp, iPhone 17 Pro Max còn hấp dẫn với người dùng yêu cầu cao về tính ổn định, chất lượng hoàn thiện và khả năng sử dụng lâu dài trong hệ sinh thái Apple. Đây là lựa chọn dành cho người muốn sở hữu mẫu iPhone mạnh và đầy đủ nhất."
+      ],
+      "sections": [
+        {
+          "title": "Màn hình lớn và pin tốt cho nhu cầu sử dụng dài",
+          "content": "Lợi thế lớn của iPhone 17 Pro Max là không gian hiển thị rộng và trải nghiệm phù hợp với người dùng thường xuyên xem video, đọc tài liệu, chỉnh sửa nội dung hoặc chơi game. Bên cạnh đó, thời lượng pin tốt hơn giúp máy phù hợp với cường độ sử dụng cao trong ngày."
+        },
+        {
+          "title": "Camera và hiệu năng ở nhóm đầu bảng",
+          "content": "iPhone 17 Pro Max hướng tới nhóm người dùng cần camera mạnh và hiệu năng cao để quay chụp, xử lý video, làm việc di động và sử dụng lâu dài. Đây là mẫu máy phù hợp cho người muốn một chiếc điện thoại cao cấp toàn diện, phục vụ tốt nhiều mục đích sử dụng khác nhau."
+        }
+      ]
+    }
+  },
+  {
+    "id": "8",
+    "slug": "iphone-16-pro-128gb",
+    "brand": "Apple",
+    "category": "smartphone",
+    "full_name": "Apple iPhone 16 Pro 128GB",
+    "short_name": "iPhone 16 Pro",
+    "pricing": {
+      "original_price": 27990000,
+      "discount_percent": 8,
+      "sale_price": 25590000
+    },
+    "colors": [
+      {
+        "variant": "Titan Sa Mạc",
+        "image": "./asset/chi-tiet-san-pham/images/iphone-16-pro/sa-mac.jpg"
+      },
+      {
+        "variant": "Titan trắng",
+        "image": "./asset/chi-tiet-san-pham/images/iphone-16-pro/trang.jpg"
+      },
+      {
+        "variant": "Titan đen",
+        "image": "./asset/chi-tiet-san-pham/images/iphone-16-pro/den.jpg"
+      },
+      {
+        "variant": "Titan tự nhiên",
+        "image": "./asset/chi-tiet-san-pham/images/iphone-16-pro/tu-nhien.jpg"
+      }
+    ],
+    "os": "iOS 18",
+    "display": "Super Retina XDR 6.3 inch, ProMotion 120Hz",
+    "chip": "Apple A18 Pro 6 nhân",
+    "ram_rom": "8GB / 128GB",
+    "main_camera": "48MP (chính) + 48MP (ultrawide) + 12MP (telephoto)",
+    "selfie_camera": "12MP",
+    "durability": "Kháng nước, bụi IP68",
+    "description": {
+      "intro": [
+        "iPhone 16 Pro là mẫu smartphone cao cấp hướng tới người dùng cần hiệu năng mạnh, thiết kế cao cấp và camera phục vụ tốt cho cả công việc lẫn sáng tạo nội dung. Máy phù hợp với người muốn sở hữu một thiết bị gọn hơn bản Pro Max nhưng vẫn có trải nghiệm thuộc nhóm đầu bảng.",
+        "Điểm hấp dẫn của iPhone 16 Pro nằm ở sự cân bằng giữa sức mạnh xử lý, trải nghiệm phần mềm ổn định và khả năng quay chụp cao cấp. Thiết bị phù hợp cho người dùng thường xuyên làm việc trên điện thoại, thích quay video, chụp ảnh hoặc cần máy mạnh để sử dụng lâu dài.",
+        "Ngoài phần cứng, iPhone 16 Pro còn là lựa chọn đáng chú ý với những ai ưu tiên hệ sinh thái Apple, đồng bộ dữ liệu nhanh và trải nghiệm dùng nhất quán giữa iPhone, iPad, MacBook và Apple Watch."
+      ],
+      "sections": [
+        {
+          "title": "Hiệu năng mạnh trong kích thước gọn hơn",
+          "content": "iPhone 16 Pro mang lại khả năng xử lý mạnh, vận hành mượt và phù hợp với nhiều nhu cầu từ cơ bản đến nâng cao. Lợi thế của dòng Pro là giữ được trải nghiệm cao cấp nhưng vẫn gọn gàng hơn bản Pro Max, phù hợp với người thích cảm giác cầm nắm dễ chịu hơn."
+        },
+        {
+          "title": "Camera cao cấp phục vụ sáng tạo nội dung",
+          "content": "Máy được định hướng mạnh cho nhu cầu quay chụp với chất lượng hình ảnh tốt, khả năng xử lý ổn định và trải nghiệm camera linh hoạt. Đây là lựa chọn phù hợp với người dùng thường xuyên chụp ảnh, quay video ngắn hoặc cần một smartphone phục vụ công việc sáng tạo."
+        }
+      ]
+    }
+  },
+  {
+    "id": "9",
+    "slug": "iphone-16e-128gb",
+    "brand": "Apple",
+    "category": "smartphone",
+    "full_name": "Apple iPhone 16e 128GB",
+    "short_name": "iPhone 16e",
+    "pricing": {
+      "original_price": 17530000,
+      "discount_percent": 6,
+      "sale_price": 16490000
+    },
+    "colors": [
+      {
+        "variant": "Đen",
+        "image": "./asset/chi-tiet-san-pham/images/iphone-16e/den.webp"
+      },
+      {
+        "variant": "Trắng",
+        "image": "./asset/chi-tiet-san-pham/images/iphone-16e/trang.webp"
+      }
+    ],
+    "os": "iOS 18",
+    "display": "OLED 6.1 inch, 60Hz",
+    "chip": "Apple A18 6 nhân",
+    "ram_rom": "8GB / 128GB",
+    "main_camera": "48MP (chính)",
+    "selfie_camera": "12MP",
+    "durability": "Kháng nước, bụi IP68",
+    "description": {
+      "intro": [
+        "iPhone 16e là mẫu smartphone hướng tới người dùng muốn trải nghiệm iPhone hiện đại với hiệu năng tốt, phần mềm ổn định và mức tiếp cận dễ hơn so với các dòng Pro. Thiết bị phù hợp với nhu cầu học tập, liên lạc, giải trí và sử dụng lâu dài trong hệ sinh thái Apple.",
+        "Sản phẩm này hấp dẫn nhờ tập trung vào những giá trị thực dụng như vận hành mượt, thiết kế dễ dùng và khả năng đáp ứng tốt các tác vụ phổ biến hằng ngày. Đây là lựa chọn phù hợp cho người dùng muốn nâng cấp lên iPhone mới nhưng không cần quá nhiều tính năng chuyên sâu.",
+        "Ngoài ra, iPhone 16e còn phù hợp với người dùng trẻ, người mới dùng iPhone hoặc những ai ưu tiên sự ổn định, độ bền và cập nhật phần mềm lâu dài hơn là các tính năng cao cấp về camera hay vật liệu hoàn thiện."
+      ],
+      "sections": [
+        {
+          "title": "Cân bằng giữa hiệu năng và tính thực dụng",
+          "content": "iPhone 16e được định hướng như một thiết bị dễ tiếp cận hơn nhưng vẫn mang lại trải nghiệm mượt mà cho các nhu cầu phổ biến. Máy có thể phục vụ tốt cho gọi điện, học tập, xem video, chụp ảnh cơ bản, lướt web và dùng ứng dụng hằng ngày."
+        },
+        {
+          "title": "Phù hợp với người muốn dùng iPhone lâu dài",
+          "content": "Với nền tảng phần mềm ổn định và hệ sinh thái mạnh, iPhone 16e là lựa chọn phù hợp cho người cần một thiết bị dễ dùng và bền bỉ. Đây là dòng máy hợp với người dùng đề cao trải nghiệm tổng thể, sự ổn định và khả năng sử dụng nhiều năm."
+        }
+      ]
+    }
+  },
+  {
+    "id": "10",
+    "slug": "iphone-15-128gb",
+    "brand": "Apple",
+    "category": "smartphone",
+    "full_name": "Apple iPhone 15 128GB",
+    "short_name": "iPhone 15",
+    "pricing": {
+      "original_price": 18990000,
+      "discount_percent": 5,
+      "sale_price": 17990000
+    },
+    "colors": [
+      {
+        "variant": "Đen",
+        "image": "./asset/chi-tiet-san-pham/images/iphone-15/den.png"
+      },
+      {
+        "variant": "Vàng",
+        "image": "./asset/chi-tiet-san-pham/images/iphone-15/vang.png"
+      },
+      {
+        "variant": "Hồng",
+        "image": "./asset/chi-tiet-san-pham/images/iphone-15/hong.png"
+      },
+      {
+        "variant": "Xanh dương",
+        "image": "./asset/chi-tiet-san-pham/images/iphone-15/xanh-duong.png"
+      }
+    ],
+    "os": "iOS 17",
+    "display": "Super Retina XDR 6.1 inch",
+    "chip": "Apple A16 Bionic",
+    "ram_rom": "6GB / 128GB",
+    "main_camera": "48MP (chính) + 12MP (ultrawide)",
+    "selfie_camera": "12MP",
+    "durability": "Kháng nước, bụi IP68",
+    "description": {
+      "intro": [
+        "iPhone 15 là mẫu smartphone cao cấp hướng tới người dùng cần trải nghiệm ổn định, camera tốt và hiệu năng mạnh trong một thiết kế dễ sử dụng hằng ngày. Máy phù hợp cho các nhu cầu phổ biến như chụp ảnh, quay video, học tập, liên lạc, làm việc và giải trí.",
+        "Điểm nổi bật của iPhone 15 là sự cân bằng giữa hiệu năng, độ hoàn thiện và trải nghiệm phần mềm. Thiết bị đáp ứng tốt cho người dùng muốn một mẫu iPhone có thể sử dụng lâu dài, vận hành mượt và tương thích tốt với hệ sinh thái Apple.",
+        "Ngoài camera và hiệu suất ổn định, iPhone 15 còn phù hợp với người dùng ưu tiên sự đơn giản, dễ dùng và độ bền trong quá trình sử dụng. Đây là lựa chọn hợp lý cho nhóm khách hàng muốn tiếp cận trải nghiệm iPhone cao cấp nhưng vẫn ưu tiên tính thực dụng."
+      ],
+      "sections": [
+        {
+          "title": "Trải nghiệm ổn định cho nhu cầu hằng ngày",
+          "content": "iPhone 15 mang lại trải nghiệm mượt mà ở hầu hết tác vụ thường dùng như lướt web, mạng xã hội, xem video, gọi video, chụp ảnh và xử lý công việc cơ bản. Thiết bị phù hợp với người dùng muốn một chiếc điện thoại dễ dùng, bền và có thể gắn bó trong nhiều năm."
+        },
+        {
+          "title": "Camera tốt, phù hợp chụp ảnh đời sống",
+          "content": "Máy được định hướng tốt cho nhu cầu chụp ảnh, quay video và lưu giữ khoảnh khắc hằng ngày. Hệ thống camera trên iPhone 15 đủ sức phục vụ nhu cầu quay chụp phổ biến, đồng thời cho chất lượng hình ảnh ổn định và dễ dùng với nhiều nhóm người dùng khác nhau."
+        }
+      ]
+    }
+  },
+  {
+    "id": "11",
+    "slug": "iphone-15-pro-max-256gb",
+    "brand": "Apple",
+    "category": "smartphone",
+    "full_name": "Apple iPhone 15 Pro Max 256GB",
+    "short_name": "iPhone 15 Pro Max",
+    "pricing": {
+      "original_price": 30390000,
+      "discount_percent": 3,
+      "sale_price": 29390000
+    },
+    "colors": [
+      {
+        "variant": "Titan tự nhiên",
+        "image": "./asset/chi-tiet-san-pham/images/iphone-15-pro-max/tu-nhien.jpg"
+      },
+      {
+        "variant": "Titan trắng",
+        "image": "./asset/chi-tiet-san-pham/images/iphone-15-pro-max/trang.jpg"
+      },
+      {
+        "variant": "Titan đen",
+        "image": "./asset/chi-tiet-san-pham/images/iphone-15-pro-max/den.jpg"
+      },
+      {
+        "variant": "Titan xanh",
+        "image": "./asset/chi-tiet-san-pham/images/iphone-15-pro-max/xanh.jpg"
+      }
+    ],
+    "os": "iOS 17",
+    "display": "Super Retina XDR OLED 6.7 inch, ProMotion 120Hz",
+    "chip": "Apple A17 Pro 6 nhân",
+    "ram_rom": "8GB / 256GB",
+    "main_camera": "48MP (chính) + 12MP (ultrawide) + 12MP (telephoto)",
+    "selfie_camera": "12MP",
+    "durability": "Kháng nước, bụi IP68",
+    "iphone-15-pro-max": {
+      "description": {
+        "intro": [
+          "iPhone 15 Pro Max là mẫu flagship hướng tới người dùng cần hiệu năng cao, màn hình lớn và hệ thống camera mạnh cho nhu cầu chụp ảnh, quay video và làm việc di động. Đây là dòng máy phù hợp với người dùng muốn trải nghiệm iPhone cao cấp toàn diện trong nhiều năm.",
+          "So với các phiên bản tiêu chuẩn, iPhone 15 Pro Max nổi bật nhờ màn hình lớn hơn, pin tốt hơn và cụm camera có tính linh hoạt cao hơn cho các tình huống quay chụp khác nhau. Sản phẩm phù hợp với người dùng sáng tạo nội dung, thường xuyên di chuyển hoặc đơn giản là muốn sở hữu mẫu iPhone mạnh và đầy đủ tính năng.",
+          "Ngoài cấu hình mạnh, iPhone 15 Pro Max còn mang đến cảm giác cao cấp ở thiết kế, độ hoàn thiện và trải nghiệm phần mềm ổn định. Đây là một trong những lựa chọn hấp dẫn cho người cần smartphone cao cấp phục vụ cả công việc lẫn giải trí."
+        ],
+        "sections": [
+          {
+            "title": "Hiệu năng mạnh cho nhu cầu cao cấp",
+            "content": "iPhone 15 Pro Max được xây dựng để đáp ứng tốt các tác vụ nặng như quay video chất lượng cao, chỉnh sửa ảnh, chơi game, xử lý đa nhiệm và làm việc di động. Máy phù hợp với người dùng cần hiệu năng bền bỉ và ổn định trong thời gian dài."
+          },
+          {
+            "title": "Camera đa dụng cho quay chụp linh hoạt",
+            "content": "Một trong những điểm mạnh lớn của iPhone 15 Pro Max là cụm camera phục vụ tốt cho nhiều tình huống từ chụp chân dung, phong cảnh đến quay video chất lượng cao. Điều này giúp máy đặc biệt phù hợp với người dùng thích sáng tạo nội dung hoặc muốn chất lượng camera tốt trên điện thoại."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "12",
+    "slug": "ipad-pro-m5-11-inch-wifi-256gb",
+    "brand": "Apple",
+    "category": "tablet",
+    "full_name": "Apple iPad Pro M5 11 inch WiFi 256GB",
+    "short_name": "iPad Pro M5",
+    "pricing": {
+      "original_price": 29990000,
+      "discount_percent": 2,
+      "sale_price": 29290000
+    },
+    "colors": [
+      {
+        "variant": "Đen Không Gian",
+        "image": "./asset/chi-tiet-san-pham/images/ipad-pro-m5/den.jpg"
+      },
+      {
+        "variant": "Bạc",
+        "image": "./asset/chi-tiet-san-pham/images/ipad-pro-m5/bac.jpg"
+      }
+    ],
+    "os": "iPadOS 26",
+    "display": "Ultra Retina XDR 11 inch, 120Hz",
+    "chip": "Apple M5 9 nhân",
+    "ram_rom": "12GB / 256GB",
+    "main_camera": "12MP",
+    "selfie_camera": "12MP",
+    "durability": "Không công bố",
+    "description": {
+      "intro": [
+        "iPad Pro M5 là mẫu máy tính bảng cao cấp thế hệ mới hướng tới người dùng cần cấu hình rất mạnh, khả năng xử lý dài hạn và trải nghiệm sử dụng cao cấp trong hệ sinh thái Apple. Thiết bị phù hợp với nhu cầu làm việc chuyên sâu, sáng tạo nội dung và giải trí chất lượng cao trên một thiết kế mỏng nhẹ.",
+        "Điểm hấp dẫn của iPad Pro M5 nằm ở việc tiếp tục đẩy cao hiệu năng xử lý, mang lại khả năng vận hành mượt với các tác vụ nặng như chỉnh sửa video, thiết kế, làm việc đa cửa sổ hoặc chạy những ứng dụng yêu cầu phần cứng cao. Đây là nhóm sản phẩm phù hợp với người dùng muốn một thiết bị tablet có thể thay thế nhiều phần việc của laptop.",
+        "Bên cạnh hiệu năng, iPad Pro M5 còn được kỳ vọng là lựa chọn lý tưởng cho người dùng chuyên nghiệp nhờ trải nghiệm hiển thị tốt, hỗ trợ phụ kiện mạnh và khả năng làm việc linh hoạt ở nhiều môi trường. Sản phẩm phù hợp cho người ưu tiên công nghệ mới và muốn đầu tư một thiết bị cao cấp dùng lâu dài."
+      ],
+      "sections": [
+        {
+          "title": "Hiệu năng đầu bảng cho tác vụ nặng",
+          "content": "Thế mạnh lớn nhất của iPad Pro M5 là khả năng xử lý mạnh mẽ, phục vụ tốt các công việc sáng tạo, chỉnh sửa nội dung, vẽ kỹ thuật số và đa nhiệm chuyên sâu. Người dùng cần một chiếc tablet cho công việc cường độ cao sẽ thấy đây là dòng máy phù hợp hơn so với các mẫu tablet phổ thông."
+        },
+        {
+          "title": "Linh hoạt giữa công việc và giải trí",
+          "content": "Ngoài sức mạnh phần cứng, iPad Pro M5 còn là thiết bị thích hợp cho nhu cầu sử dụng hằng ngày như xem phim, đọc tài liệu, ghi chú, họp trực tuyến và giải trí. Sự kết hợp giữa hiệu năng, màn hình tốt và thiết kế di động giúp máy phù hợp với nhóm người dùng hiện đại cần một thiết bị đa năng."
+        }
+      ]
+    }
+  },
+  {
+    "id": "13",
+    "slug": "ipad-pro-m4-11-inch-wifi-256gb",
+    "brand": "Apple",
+    "category": "tablet",
+    "full_name": "Apple iPad Pro M4 11 inch WiFi 256GB",
+    "short_name": "iPad Pro M4",
+    "pricing": {
+      "original_price": 28490000,
+      "discount_percent": 12,
+      "sale_price": 24990000
+    },
+    "colors": [
+      {
+        "variant": "Bạc",
+        "image": "./asset/chi-tiet-san-pham/images/ipad-pro-m4/bac.jpg"
+      },
+      {
+        "variant": "Đen Không Gian",
+        "image": "./asset/chi-tiet-san-pham/images/ipad-pro-m4/den.jpg"
+      }
+    ],
+    "os": "iPadOS 17",
+    "display": "Ultra Retina XDR 11 inch, 120Hz",
+    "chip": "Apple M4 9 nhân",
+    "ram_rom": "8GB / 256GB",
+    "main_camera": "12MP",
+    "selfie_camera": "12MP",
+    "durability": "Không công bố",
+    "description": {
+      "intro": [
+        "iPad Pro M4 là dòng máy tính bảng cao cấp hướng tới người dùng chuyên nghiệp cần hiệu năng rất mạnh, màn hình chất lượng cao và thiết kế hiện đại. Thiết bị nổi bật với chip Apple M4, khả năng xử lý đồ họa mạnh và trải nghiệm hiển thị sắc nét, phù hợp cho công việc sáng tạo nội dung, thiết kế và giải trí cao cấp.",
+        "Sản phẩm này phù hợp với nhóm người dùng muốn một thiết bị di động có thể đáp ứng tốt các tác vụ nặng như chỉnh sửa video, thiết kế đồ họa, dựng mô hình cơ bản hoặc xử lý nhiều ứng dụng cùng lúc. Nhờ thiết kế mỏng nhẹ hơn nhưng vẫn giữ sức mạnh cao, iPad Pro M4 tạo cảm giác linh hoạt khi sử dụng trong môi trường học tập, văn phòng và di chuyển.",
+        "Ngoài hiệu năng mạnh, iPad Pro M4 còn mang lại trải nghiệm đồng bộ tốt với hệ sinh thái Apple, hỗ trợ mạnh cho Apple Pencil và các phụ kiện bàn phím. Đây là dòng iPad phù hợp cho người dùng muốn đầu tư vào một thiết bị tablet cao cấp để phục vụ công việc lâu dài."
+      ],
+      "sections": [
+        {
+          "title": "Sức mạnh xử lý phục vụ nhu cầu chuyên nghiệp",
+          "content": "Chip Apple M4 giúp iPad Pro đạt hiệu năng rất cao, tối ưu tốt cho các ứng dụng đồ họa, chỉnh sửa video, làm việc sáng tạo và xử lý đa nhiệm nặng. Với nền tảng phần cứng mạnh, máy có thể phục vụ tốt cả công việc lẫn giải trí trong thời gian dài mà vẫn đảm bảo phản hồi nhanh và ổn định."
+        },
+        {
+          "title": "Màn hình cao cấp cho hiển thị và sáng tạo",
+          "content": "Một trong những điểm mạnh lớn của iPad Pro M4 là màn hình chất lượng cao, mang lại độ chi tiết tốt, màu sắc ấn tượng và trải nghiệm hiển thị phù hợp cho cả xem nội dung lẫn công việc hình ảnh. Đây là lợi thế rõ rệt với người dùng thường xuyên vẽ, chỉnh ảnh, dựng video hoặc cần không gian hiển thị đẹp và chính xác."
+        }
+      ]
+    }
+  },
+  {
+    "id": "14",
+    "slug": "ipad-air-m3-11-inch-wifi-128gb",
+    "brand": "Apple",
+    "category": "tablet",
+    "full_name": "Apple iPad Air M3 11 inch WiFi 128GB",
+    "short_name": "iPad Air M3",
+    "pricing": {
+      "original_price": 16690000,
+      "discount_percent": 4,
+      "sale_price": 15890000
+    },
+    "colors": [
+      {
+        "variant": "Xanh dương",
+        "image": "./asset/chi-tiet-san-pham/images/ipad-air-m3/xanh-duong.jpg"
+      },
+      {
+        "variant": "Tím",
+        "image": "./asset/chi-tiet-san-pham/images/ipad-air-m3/tim.jpg"
+      },
+      {
+        "variant": "Ánh sao",
+        "image": "./asset/chi-tiet-san-pham/images/ipad-air-m3/starlight.jpg"
+      },
+      {
+        "variant": "Xám không gian",
+        "image": "./asset/chi-tiet-san-pham/images/ipad-air-m3/xam.jpg"
+      }
+    ],
+    "os": "iPadOS 18",
+    "display": "Retina IPS LCD 11 inch",
+    "chip": "Apple M3 8 nhân",
+    "ram_rom": "8GB / 128GB",
+    "main_camera": "12MP",
+    "selfie_camera": "12MP",
+    "durability": "Không công bố",
+    "description": {
+      "intro": [
+        "Xiaomi 15T Pro là mẫu smartphone hiệu năng cao hướng tới người dùng cần tốc độ xử lý mạnh, trải nghiệm mượt và khả năng đáp ứng tốt cho các tác vụ giải trí lẫn công việc. Thiết bị phù hợp với nhóm người dùng thích smartphone mạnh, công nghệ mới và trải nghiệm gần với phân khúc cao cấp.",
+        "Điểm nổi bật của Xiaomi 15T Pro nằm ở định hướng tập trung vào hiệu suất, khả năng xử lý đa nhiệm, gaming và sử dụng cường độ cao. Máy phù hợp với người dùng muốn một thiết bị có sức mạnh tốt, màn hình đẹp và đủ linh hoạt cho nhiều nhu cầu từ cơ bản đến nâng cao.",
+        "Ngoài hiệu năng, Xiaomi 15T Pro còn hấp dẫn với người dùng thích trải nghiệm smartphone hiện đại, nhiều tính năng và tối ưu tốt cho giải trí. Đây là lựa chọn phù hợp cho người dùng ưu tiên cấu hình mạnh, tốc độ nhanh và giá trị sử dụng cao trong tầm đầu tư."
+      ],
+      "sections": [
+        {
+          "title": "Hiệu suất cao cho người dùng thích cấu hình mạnh",
+          "content": "Xiaomi 15T Pro là mẫu máy phù hợp với người dùng cần tốc độ xử lý nhanh, chơi game tốt, đa nhiệm mượt và vận hành ổn định trong thời gian dài. Thiết bị hướng nhiều đến trải nghiệm hiệu năng, nên đặc biệt phù hợp với nhóm khách hàng thích smartphone mạnh và phản hồi nhanh."
+        },
+        {
+          "title": "Phù hợp cả giải trí lẫn sử dụng cường độ cao",
+          "content": "Bên cạnh sức mạnh phần cứng, Xiaomi 15T Pro còn được định hướng để phục vụ tốt các nhu cầu như xem phim, lướt web, quay chụp, làm việc trên điện thoại và sử dụng liên tục trong ngày. Đây là dòng máy hợp với người dùng muốn một thiết bị đa năng nhưng vẫn thiên về hiệu năng."
+        }
+      ]
+    }
+  },
+  {
+    "id": "15",
+    "slug": "xiaomi-15-5g-12gb-512gb",
+    "brand": "Xiaomi",
+    "category": "smartphone",
+    "full_name": "Xiaomi 15 5G 12GB/512GB",
+    "short_name": "Xiaomi 15",
+    "pricing": {
+      "original_price": 17850000,
+      "discount_percent": 0,
+      "sale_price": 17850000
+    },
+    "colors": [
+      {
+        "variant": "Xanh lá",
+        "image": null
+      },
+      {
+        "variant": "Đen",
+        "image": null
+      },
+      {
+        "variant": "Trắng",
+        "image": null
+      }
+    ],
+    "os": "Xiaomi HyperOS 2",
+    "display": "AMOLED 6.36 inch, 120Hz",
+    "chip": "Qualcomm Snapdragon 8 Elite 8 nhân",
+    "ram_rom": "12GB / 512GB",
+    "main_camera": "50MP (chính) + 50MP (ultrawide) + 50MP (telephoto)",
+    "selfie_camera": "32MP",
+    "durability": "Kháng nước, bụi IP68",
+    "description": {
+      "intro": [
+        "Xiaomi 15 là mẫu smartphone cao cấp hướng tới người dùng cần hiệu năng mạnh, thiết kế hiện đại và trải nghiệm sử dụng linh hoạt trong nhiều tình huống. Thiết bị phù hợp với người dùng yêu thích công nghệ, muốn một chiếc điện thoại mạnh để phục vụ cả công việc lẫn giải trí.",
+        "Sản phẩm này nổi bật ở sự cân bằng giữa tốc độ xử lý, khả năng hiển thị, camera và thiết kế gọn gàng. Xiaomi 15 phù hợp với người dùng cần một thiết bị cao cấp nhưng vẫn muốn kích thước dễ cầm nắm hơn so với các phiên bản màn hình lớn.",
+        "Ngoài phần cứng mạnh, Xiaomi 15 còn phù hợp với người dùng thường xuyên chụp ảnh, xem nội dung, làm việc trên điện thoại và sử dụng đa nhiệm. Đây là lựa chọn hấp dẫn cho nhóm khách hàng muốn hiệu suất tốt cùng trải nghiệm hiện đại trong phân khúc flagship."
+      ],
+      "sections": [
+        {
+          "title": "Hiệu năng mạnh cho công việc và giải trí",
+          "content": "Xiaomi 15 được định hướng là mẫu smartphone cao cấp có khả năng xử lý tốt các tác vụ từ cơ bản đến nâng cao. Máy có thể đáp ứng mượt cho nhu cầu chơi game, xử lý đa nhiệm, dùng ứng dụng nặng, chỉnh sửa nội dung và sử dụng lâu dài với cường độ cao."
+        },
+        {
+          "title": "Thiết kế gọn gàng nhưng vẫn cao cấp",
+          "content": "Một điểm hấp dẫn của Xiaomi 15 là sự kết hợp giữa hiệu năng flagship và cảm giác cầm nắm linh hoạt hơn. Đây là lựa chọn phù hợp với người muốn một mẫu máy mạnh, đẹp và hiện đại nhưng không quá cồng kềnh khi sử dụng hằng ngày."
+        }
+      ]
+    }
+  },
+  {
+    "id": "16",
+    "slug": "xiaomi-15t-pro-5g-12gb-256gb",
+    "brand": "Xiaomi",
+    "category": "smartphone",
+    "full_name": "Xiaomi 15T Pro 5G 12GB/256GB",
+    "short_name": "Xiaomi 15T Pro",
+    "pricing": {
+      "original_price": 18490000,
+      "discount_percent": 5,
+      "sale_price": 17490000
+    },
+    "colors": [
+      {
+        "variant": "Vàng Mocha",
+        "image": null
+      },
+      {
+        "variant": "Xám",
+        "image": null
+      },
+      {
+        "variant": "Đen",
+        "image": null
+      }
+    ],
+    "os": "Android 15",
+    "display": "Super AMOLED 6.83 inch, 144Hz",
+    "chip": "MediaTek Dimensity 9400+ 8 nhân",
+    "ram_rom": "12GB / 256GB",
+    "main_camera": "50MP (chính) + 50MP (telephoto) + 12MP (ultrawide)",
+    "selfie_camera": "32MP",
+    "durability": "Kháng nước, bụi IP68",
+    "description": {
+      "intro": [
+        "Xiaomi 15 là mẫu smartphone cao cấp hướng tới người dùng cần hiệu năng mạnh, thiết kế hiện đại và trải nghiệm sử dụng linh hoạt trong nhiều tình huống. Thiết bị phù hợp với người dùng yêu thích công nghệ, muốn một chiếc điện thoại mạnh để phục vụ cả công việc lẫn giải trí.",
+        "Sản phẩm này nổi bật ở sự cân bằng giữa tốc độ xử lý, khả năng hiển thị, camera và thiết kế gọn gàng. Xiaomi 15 phù hợp với người dùng cần một thiết bị cao cấp nhưng vẫn muốn kích thước dễ cầm nắm hơn so với các phiên bản màn hình lớn.",
+        "Ngoài phần cứng mạnh, Xiaomi 15 còn phù hợp với người dùng thường xuyên chụp ảnh, xem nội dung, làm việc trên điện thoại và sử dụng đa nhiệm. Đây là lựa chọn hấp dẫn cho nhóm khách hàng muốn hiệu suất tốt cùng trải nghiệm hiện đại trong phân khúc flagship."
+      ],
+      "sections": [
+        {
+          "title": "Hiệu năng mạnh cho công việc và giải trí",
+          "content": "Xiaomi 15 được định hướng là mẫu smartphone cao cấp có khả năng xử lý tốt các tác vụ từ cơ bản đến nâng cao. Máy có thể đáp ứng mượt cho nhu cầu chơi game, xử lý đa nhiệm, dùng ứng dụng nặng, chỉnh sửa nội dung và sử dụng lâu dài với cường độ cao."
+        },
+        {
+          "title": "Thiết kế gọn gàng nhưng vẫn cao cấp",
+          "content": "Một điểm hấp dẫn của Xiaomi 15 là sự kết hợp giữa hiệu năng flagship và cảm giác cầm nắm linh hoạt hơn. Đây là lựa chọn phù hợp với người muốn một mẫu máy mạnh, đẹp và hiện đại nhưng không quá cồng kềnh khi sử dụng hằng ngày."
+        }
+      ]
+    }
+  },
+  {
+    "id": "17",
+    "slug": "vivo-v60-12gb-256gb",
+    "brand": "vivo",
+    "category": "smartphone",
+    "full_name": "vivo V60 5G 12GB/256GB",
+    "short_name": "V60",
+    "pricing": {
+      "original_price": 15990000,
+      "discount_percent": 3,
+      "sale_price": 15390000
+    },
+    "colors": [
+      {
+        "variant": "Xám",
+        "image": "./asset/chi-tiet-san-pham/images/vivo-v60/xam.jpg"
+      },
+      {
+        "variant": "Tím",
+        "image": "./asset/chi-tiet-san-pham/images/vivo-v60/tim.jpg"
+      }
+    ],
+    "os": "Android 15",
+    "display": "AMOLED 6.77 inch, Full HD+, 120Hz",
+    "chip": "Snapdragon 7 Gen 4 8 nhân",
+    "ram_rom": "12GB / 256GB",
+    "main_camera": "50MP (chính) + 50MP (tele) + 8MP (ultrawide)",
+    "selfie_camera": "50MP",
+    "durability": "Kháng nước, bụi IP68 & IP69",
+    "description": {
+      "intro": [
+        "vivo V60 là mẫu smartphone hướng tới người dùng cần thiết kế hiện đại, trải nghiệm mượt và camera đáp ứng tốt nhu cầu chụp ảnh hằng ngày. Thiết bị phù hợp với nhóm khách hàng trẻ, người dùng yêu thích sự cân bằng giữa ngoại hình, hiệu năng và tính thực dụng trong quá trình sử dụng.",
+        "Sản phẩm này nổi bật ở khả năng phục vụ tốt các tác vụ quen thuộc như lướt web, xem video, mạng xã hội, chụp ảnh, gọi video và làm việc cơ bản. vivo V60 phù hợp với người dùng muốn một chiếc điện thoại dễ dùng, có giao diện thân thiện và đáp ứng ổn định trong thời gian dài.",
+        "Ngoài hiệu năng đủ dùng, vivo V60 còn tạo sức hút nhờ thiết kế gọn gàng, cảm giác cầm nắm dễ chịu và định hướng rõ ràng cho nhu cầu sử dụng hằng ngày. Đây là lựa chọn phù hợp cho người muốn một mẫu smartphone hiện đại, linh hoạt và dễ tiếp cận."
+      ],
+      "sections": [
+        {
+          "title": "Trải nghiệm cân bằng cho nhu cầu phổ thông",
+          "content": "vivo V60 được xây dựng để mang lại trải nghiệm mượt mà trong những tác vụ quen thuộc như học tập, giải trí, liên lạc và sử dụng ứng dụng hằng ngày. Máy phù hợp với người dùng cần một thiết bị ổn định, dễ dùng và không quá phức tạp trong quá trình làm quen."
+        },
+        {
+          "title": "Thiết kế hiện đại, phù hợp người dùng trẻ",
+          "content": "Một trong những điểm dễ tạo thiện cảm của vivo V60 là thiết kế trẻ trung, dễ cầm nắm và phù hợp với xu hướng sử dụng điện thoại như một thiết bị đồng hành suốt ngày dài. Đây là mẫu máy thích hợp với người dùng ưu tiên ngoại hình đẹp nhưng vẫn muốn đảm bảo hiệu năng đủ tốt."
+        }
+      ]
+    }
+  },
+  {
+    "id": "18",
+    "slug": "vivo-v60-lite-8gb-256gb",
+    "brand": "vivo",
+    "category": "smartphone",
+    "full_name": "vivo V60 Lite 5G 8GB/256GB",
+    "short_name": "V60 Lite",
+    "pricing": {
+      "original_price": 10490000,
+      "discount_percent": 0,
+      "sale_price": 10490000
+    },
+    "colors": [
+      {
+        "variant": "Hồng",
+        "image": "./asset/chi-tiet-san-pham/images/vivo-v60-lite/hong.jpg"
+      },
+      {
+        "variant": "Xanh Dương",
+        "image": "./asset/chi-tiet-san-pham/images/vivo-v60-lite/xanh-duong.jpg"
+      },
+      {
+        "variant": "Đen",
+        "image": "./asset/chi-tiet-san-pham/images/vivo-v60-lite/den.jpg"
+      }
+    ],
+    "os": "Android 15",
+    "display": "AMOLED 6.77 inch, Full HD+, 120Hz",
+    "chip": "MediaTek Dimensity 7360-Turbo 8 nhân",
+    "ram_rom": "8GB / 256GB",
+    "main_camera": "50MP (chính) + 8MP (ultrawide)",
+    "selfie_camera": "32MP",
+    "durability": "Kháng nước, bụi IP65",
+    "description": {
+      "intro": [
+        "vivo V60 Lite là mẫu smartphone hướng tới người dùng cần một thiết bị dễ tiếp cận, thiết kế đẹp và đáp ứng tốt các nhu cầu cơ bản hằng ngày. Máy phù hợp cho học sinh, sinh viên, người dùng phổ thông hoặc những ai muốn tìm một chiếc điện thoại có trải nghiệm ổn định ở tầm giá dễ chịu hơn.",
+        "Điểm hấp dẫn của vivo V60 Lite nằm ở tính thực dụng, dễ dùng và khả năng phục vụ tốt cho các nhu cầu phổ biến như gọi điện, nhắn tin, học online, xem video, mạng xã hội và chụp ảnh cơ bản. Thiết bị phù hợp với người dùng không cần cấu hình quá cao nhưng vẫn muốn có trải nghiệm mới mẻ, hiện đại.",
+        "Ngoài ra, vivo V60 Lite còn là lựa chọn phù hợp cho người đang tìm kiếm một mẫu điện thoại có ngoại hình trẻ trung, giao diện thân thiện và đủ bền bỉ để sử dụng hằng ngày. Đây là dòng máy tập trung vào sự cân bằng giữa giá trị sử dụng và mức đầu tư hợp lý."
+      ],
+      "sections": [
+        {
+          "title": "Dễ tiếp cận và phù hợp nhu cầu cơ bản",
+          "content": "vivo V60 Lite phù hợp với người dùng cần một chiếc smartphone phục vụ ổn định cho những tác vụ phổ biến như lướt web, xem phim, dùng mạng xã hội, học tập và liên lạc. Máy đáp ứng tốt nhu cầu hằng ngày mà vẫn giữ được cảm giác sử dụng đơn giản và thoải mái."
+        },
+        {
+          "title": "Ngoại hình trẻ trung, dễ sử dụng lâu dài",
+          "content": "Thiết kế của vivo V60 Lite hướng đến sự hiện đại và thân thiện với nhiều nhóm người dùng. Đây là mẫu máy thích hợp cho người mới dùng smartphone, người muốn đổi máy phục vụ nhu cầu cơ bản hoặc người ưu tiên trải nghiệm dễ dùng hơn là cấu hình quá mạnh."
+        }
+      ]
+    }
+  },
+  {
+    "id": "19",
+    "slug": "oppo-find-x9-pro-16gb-512gb",
+    "brand": "OPPO",
+    "category": "smartphone",
+    "full_name": "OPPO Find X9 Pro 5G 16GB/512GB",
+    "short_name": "Find X9 Pro",
+    "pricing": {
+      "original_price": 32990000,
+      "discount_percent": 1,
+      "sale_price": 32490000
+    },
+    "colors": [
+      {
+        "variant": "Đỏ",
+        "image": "./asset/chi-tiet-san-pham/images/oppo-find-x9-pro/do.jpg"
+      },
+      {
+        "variant": "Trắng",
+        "image": "./asset/chi-tiet-san-pham/images/oppo-find-x9-pro/trang.png"
+      },
+      {
+        "variant": "Xám",
+        "image": "./asset/chi-tiet-san-pham/images/oppo-find-x9-pro/xam.png"
+      }
+    ],
+    "os": "Android 16",
+    "display": "AMOLED 6.78 inch, 1.5K+, 120Hz",
+    "chip": "MediaTek Dimensity 9500 8 nhân",
+    "ram_rom": "16GB / 512GB",
+    "main_camera": "50MP (chính) + 200MP (tele) + 50MP (ultrawide) + 2MP (mono)",
+    "selfie_camera": "50MP",
+    "durability": "Kháng nước, bụi IP66, IP68, IP69",
+    "description": {
+      "intro": [
+        "OPPO Find X9 là mẫu smartphone cao cấp hướng tới người dùng cần thiết kế hiện đại, hiệu năng mạnh và trải nghiệm sử dụng toàn diện trong nhiều tình huống. Thiết bị phù hợp với người dùng yêu thích dòng máy flagship có ngoại hình nổi bật, khả năng vận hành mượt và camera phục vụ tốt cho nhu cầu chụp ảnh hằng ngày.",
+        "Sản phẩm này hấp dẫn nhờ sự cân bằng giữa công nghệ, cảm giác cầm nắm và trải nghiệm hiển thị. OPPO Find X9 phù hợp với người dùng muốn một chiếc điện thoại cao cấp để phục vụ cả công việc, giải trí, liên lạc và sáng tạo nội dung ở mức linh hoạt.",
+        "Ngoài hiệu năng và thiết kế, OPPO Find X9 còn là lựa chọn đáng chú ý với người dùng ưu tiên sự ổn định lâu dài, giao diện thân thiện và trải nghiệm tổng thể hiện đại. Đây là dòng máy phù hợp cho người muốn đầu tư vào một smartphone cao cấp, dễ dùng và đa năng."
+      ],
+      "sections": [
+        {
+          "title": "Trải nghiệm cao cấp cho nhu cầu toàn diện",
+          "content": "OPPO Find X9 được định hướng để đáp ứng tốt nhiều nhu cầu từ giải trí, công việc, học tập đến chụp ảnh và sử dụng hằng ngày. Máy mang lại cảm giác mượt mà, ổn định và phù hợp với người dùng muốn một thiết bị cao cấp có thể đồng hành lâu dài."
+        },
+        {
+          "title": "Thiết kế hiện đại kết hợp hiệu năng mạnh",
+          "content": "Một trong những điểm thu hút của OPPO Find X9 là sự kết hợp giữa thiết kế đẹp, chất lượng hoàn thiện tốt và hiệu năng đủ mạnh cho nhiều tác vụ. Đây là lựa chọn phù hợp với người dùng ưu tiên trải nghiệm tổng thể hài hòa giữa ngoại hình và sức mạnh xử lý."
+        }
+      ]
+    }
+  },
+  {
+    "id": "20",
+    "slug": "oppo-find-x9-12gb-256gb",
+    "brand": "OPPO",
+    "category": "smartphone",
+    "full_name": "OPPO Find X9 5G 12GB/256GB",
+    "short_name": "Find X9",
+    "pricing": {
+      "original_price": 22990000,
+      "discount_percent": 0,
+      "sale_price": 22990000
+    },
+    "colors": [
+      {
+        "variant": "Đen",
+        "image": "./asset/chi-tiet-san-pham/images/oppo-find-x9/den.png"
+      },
+      {
+        "variant": "Titan xám",
+        "image": "./asset/chi-tiet-san-pham/images/oppo-find-x9/xam.png"
+      }
+    ],
+    "os": "Android 16",
+    "display": "AMOLED 6.59 inch, 1.5K+, 120Hz",
+    "chip": "MediaTek Dimensity 9500 8 nhân",
+    "ram_rom": "12GB / 256GB",
+    "main_camera": "50MP (chính) + 50MP (tele) + 50MP (ultrawide) + 2MP (mono)",
+    "selfie_camera": "32MP",
+    "durability": "Kháng nước, bụi IP66, IP68, IP69",
+    "description": {
+      "intro": [
+        "OPPO Find X9 Pro là mẫu smartphone flagship hướng tới người dùng cần hiệu năng mạnh, thiết kế cao cấp và camera nổi bật để phục vụ nhu cầu quay chụp, làm việc và giải trí. Đây là dòng máy phù hợp với người muốn trải nghiệm điện thoại cao cấp toàn diện với nhiều công nghệ hiện đại.",
+        "So với phiên bản tiêu chuẩn, OPPO Find X9 Pro được định hướng cao hơn ở khả năng chụp ảnh, xử lý tác vụ nặng và trải nghiệm tổng thể. Máy phù hợp với người dùng yêu cầu cao về chất lượng hiển thị, tốc độ phản hồi và độ linh hoạt trong quá trình sử dụng hằng ngày.",
+        "Ngoài cấu hình mạnh, OPPO Find X9 Pro còn hấp dẫn với người dùng thích smartphone cao cấp có thiết kế nổi bật, độ hoàn thiện tốt và khả năng hoạt động ổn định lâu dài. Đây là lựa chọn phù hợp với nhóm khách hàng thích công nghệ mới và trải nghiệm flagship trọn vẹn."
+      ],
+      "sections": [
+        {
+          "title": "Hiệu năng mạnh cho trải nghiệm flagship",
+          "content": "OPPO Find X9 Pro phù hợp với người dùng cần một thiết bị mạnh để chơi game, xử lý đa nhiệm, quay chụp, làm việc di động và sử dụng nhiều ứng dụng cùng lúc. Máy hướng đến trải nghiệm mượt, nhanh và ổn định trong suốt quá trình sử dụng."
+        },
+        {
+          "title": "Camera và hiển thị phục vụ nhu cầu cao cấp",
+          "content": "Thế mạnh của OPPO Find X9 Pro còn nằm ở trải nghiệm camera và màn hình, phù hợp với người dùng thích chụp ảnh, xem nội dung chất lượng cao hoặc sáng tạo nội dung trên điện thoại. Đây là dòng máy dành cho người muốn chất lượng tổng thể ở mức cao."
+        }
+      ]
+    }
+  },
+  {
+    "id": "21",
+    "slug": "oppo-reno15-pro-12gb-256gb",
+    "brand": "OPPO",
+    "category": "smartphone",
+    "full_name": "OPPO Reno15 Pro 5G 12GB/256GB",
+    "short_name": "Reno15 Pro",
+    "pricing": {
+      "original_price": 18990000,
+      "discount_percent": 0,
+      "sale_price": 18990000
+    },
+    "colors": [
+      {
+        "variant": "Xanh dương nhạt",
+        "image": "./asset/chi-tiet-san-pham/images/oppo-reno15-pro/xanh-duong.jpg"
+      },
+      {
+        "variant": "Nâu",
+        "image": "./asset/chi-tiet-san-pham/images/oppo-reno15-pro/nau.jpg"
+      }
+    ],
+    "os": "ColorOS 16 (Android 16)",
+    "display": "AMOLED 6.32 inch, 1.5K, 120Hz",
+    "chip": "MediaTek Dimensity 8450 5G 8 nhân",
+    "ram_rom": "12GB / 256GB",
+    "main_camera": "200MP (chính) + 50MP (tele) + 50MP (ultrawide)",
+    "selfie_camera": "50MP",
+    "durability": "Kháng nước, bụi IP66, IP68, IP69",
+    "description": {
+      "intro": [
+        "OPPO Reno15 Pro là mẫu smartphone cận cao cấp thế hệ mới hướng tới người dùng cần một thiết bị có thiết kế hiện đại, camera chất lượng và trải nghiệm sử dụng mượt mà trong nhiều tình huống. Đây là dòng máy phù hợp với người dùng trẻ, người thích ngoại hình đẹp và ưu tiên khả năng quay chụp.",
+        "Sản phẩm này nổi bật ở sự hài hòa giữa phong cách thiết kế, trải nghiệm hiển thị và khả năng đáp ứng tốt các nhu cầu quen thuộc như chụp ảnh, quay video, xem nội dung, làm việc cơ bản và sử dụng mạng xã hội. OPPO Reno15 Pro phù hợp với người dùng muốn một chiếc điện thoại vừa đẹp vừa dễ dùng.",
+        "Ngoài phần ngoại hình và camera, OPPO Reno15 Pro còn là lựa chọn đáng chú ý với người dùng muốn thiết bị hoạt động ổn định, giao diện thân thiện và phù hợp cho quá trình sử dụng lâu dài. Đây là mẫu máy cân bằng tốt giữa tính thẩm mỹ, tính thực dụng và trải nghiệm hiện đại."
+      ],
+      "sections": [
+        {
+          "title": "Phù hợp cho người dùng thích điện thoại đẹp và dễ dùng",
+          "content": "OPPO Reno15 Pro được định hướng cho nhóm người dùng ưu tiên sự hài hòa giữa thiết kế, trải nghiệm và tính tiện dụng. Máy phù hợp với nhu cầu sử dụng hằng ngày như liên lạc, xem video, chụp ảnh, lướt web và dùng ứng dụng phổ biến với cảm giác mượt và ổn định."
+        },
+        {
+          "title": "Camera linh hoạt cho nhu cầu quay chụp hằng ngày",
+          "content": "Dòng Reno luôn tạo điểm nhấn ở trải nghiệm camera, và OPPO Reno15 Pro cũng phù hợp với người dùng thích lưu giữ khoảnh khắc, chụp ảnh chân dung hoặc quay video ngắn để chia sẻ. Đây là lựa chọn thích hợp cho người muốn smartphone có thế mạnh hình ảnh nhưng vẫn cân bằng ở các yếu tố khác."
+        }
+      ]
+    }
+  },
+  {
+    "id": "22",
+    "slug": "oppo-reno14-pro-12gb-512gb",
+    "brand": "OPPO",
+    "category": "smartphone",
+    "full_name": "OPPO Reno14 Pro 5G 12GB/512GB",
+    "short_name": "Reno14 Pro",
+    "pricing": {
+      "original_price": 19990000,
+      "discount_percent": 0,
+      "sale_price": 19990000
+    },
+    "colors": [
+      {
+        "variant": "Xám",
+        "image": "./asset/chi-tiet-san-pham/images/oppo-reno14-pro/xam.png"
+      },
+      {
+        "variant": "Trắng",
+        "image": "./asset/chi-tiet-san-pham/images/oppo-reno14-pro/trang.jpg"
+      }
+    ],
+    "os": "Android 15",
+    "display": "AMOLED 6.83 inch, 1.5K, 120Hz",
+    "chip": "MediaTek Dimensity 8450 5G 8 nhân",
+    "ram_rom": "12GB / 512GB",
+    "main_camera": "50MP (chính) + 50MP (tele) + 50MP (ultrawide)",
+    "selfie_camera": "50MP",
+    "durability": "Kháng nước, bụi IP66, IP68, IP69",
+    "description": {
+      "intro": [
+        "OPPO Reno14 Pro là mẫu smartphone cận cao cấp hướng tới người dùng cần thiết kế đẹp, camera tốt và trải nghiệm mượt trong nhiều nhu cầu hằng ngày. Thiết bị phù hợp với nhóm khách hàng trẻ, người dùng yêu thích điện thoại có ngoại hình hiện đại và khả năng chụp ảnh nổi bật.",
+        "Dòng Reno Pro thường hấp dẫn nhờ sự cân bằng giữa kiểu dáng, màn hình, camera và hiệu năng đủ mạnh cho các tác vụ phổ biến. OPPO Reno14 Pro phù hợp với người dùng muốn một chiếc điện thoại có thể vừa dùng để làm việc, giải trí, vừa phục vụ tốt cho nhu cầu quay chụp và mạng xã hội.",
+        "Ngoài điểm mạnh về ngoại hình và camera, OPPO Reno14 Pro còn phù hợp với người dùng đề cao sự ổn định, giao diện dễ dùng và trải nghiệm tổng thể nhẹ nhàng nhưng hiện đại. Đây là lựa chọn tốt cho người muốn một smartphone đẹp, linh hoạt và dễ sử dụng lâu dài."
+      ],
+      "sections": [
+        {
+          "title": "Thiết kế đẹp, phù hợp nhu cầu sử dụng hiện đại",
+          "content": "OPPO Reno14 Pro hướng tới người dùng yêu thích một mẫu điện thoại có ngoại hình nổi bật, dễ cầm nắm và phù hợp cho cả công việc lẫn giải trí. Máy tạo cảm giác hiện đại, trẻ trung và thích hợp với người dùng muốn thiết bị đồng hành hằng ngày có tính thẩm mỹ cao."
+        },
+        {
+          "title": "Camera tốt cho chụp ảnh và mạng xã hội",
+          "content": "Một trong những thế mạnh quen thuộc của dòng Reno là khả năng phục vụ tốt cho nhu cầu chụp ảnh chân dung, ảnh đời sống và chia sẻ lên mạng xã hội. OPPO Reno14 Pro phù hợp với người dùng thích quay chụp thường xuyên nhưng vẫn muốn một thiết bị cân bằng về hiệu năng."
+        }
+      ]
+    }
+  },
+  {
+    "id": "23",
+    "slug": "apple-airpods-max-2024",
+    "brand": "Apple",
+    "category": "headphone",
+    "full_name": "Tai nghe chụp tai chống ồn Apple AirPods Max 2024 | Chính hãng Apple Việt Nam",
+    "short_name": "AirPods Max 2024",
+    "pricing": {
+      "original_price": 14990000,
+      "discount_percent": 9,
+      "sale_price": 13590000
+    },
+    "colors": [
+      {
+        "variant": "Cam",
+        "image": "./asset/chi-tiet-san-pham/images/apple-airpods-max-2024/pk1.webp"
+      },
+      {
+        "variant": "Trắng/Vàng",
+        "image": "./asset/chi-tiet-san-pham/images/apple-airpods-max-2024/trang.webp"
+      },
+      {
+        "variant": "Tím",
+        "image": "./asset/chi-tiet-san-pham/images/apple-airpods-max-2024/tim.webp"
+      },
+      {
+        "variant": "Xanh dương",
+        "image": "./asset/chi-tiet-san-pham/images/apple-airpods-max-2024/xanh-duong.webp"
+      },
+      {
+        "variant": "Đen",
+        "image": "./asset/chi-tiet-san-pham/images/apple-airpods-max-2024/den.webp"
+      }
+    ],
+    "connectivity": "Bluetooth, USB-C",
+    "charging_port": "USB-C",
+    "chip": "Apple H1",
+    "audio_technology": "Trình điều khiển động do Apple thiết kế, Chủ Động Khử Tiếng Ồn, Chế độ Xuyên Âm, Âm Thanh Không Gian Cá Nhân Hóa, EQ Thích Ứng",
+    "microphone": "9 micrô tổng cộng, gồm 8 mic cho khử ồn chủ động và 3 mic cho nhận diện giọng nói",
+    "controls": "Digital Crown, nút điều khiển tiếng ồn",
+    "battery": "Hỗ trợ sạc nhanh",
+    "water_resistance": "Chưa công bố tiêu chuẩn kháng nước/bụi",
+    "description": {
+      "intro": [
+        "Apple AirPods Max 2024 là mẫu tai nghe chụp tai cao cấp hướng tới người dùng cần chất lượng âm thanh tốt, khả năng chống ồn mạnh và trải nghiệm nghe nhạc thoải mái trong thời gian dài. Sản phẩm phù hợp với người dùng làm việc trong môi trường nhiều tiếng ồn, thường xuyên nghe nhạc, xem phim hoặc cần một chiếc tai nghe Apple cao cấp để đồng bộ cùng hệ sinh thái sẵn có.",
+        "Điểm nổi bật của AirPods Max 2024 là trình điều khiển động do Apple thiết kế, kết hợp với Chủ Động Khử Tiếng Ồn, chế độ Xuyên Âm và Âm Thanh Không Gian Cá Nhân Hóa. Nhờ đó tai nghe mang lại trải nghiệm âm thanh sống động, chi tiết và linh hoạt hơn trong nhiều ngữ cảnh sử dụng khác nhau. :contentReference[oaicite:2]{index=2}",
+        "Bên cạnh chất âm, AirPods Max 2024 còn gây ấn tượng ở thiết kế chụp tai cao cấp, đệm tai foam hoạt tính và cổng sạc USB-C tiện lợi. Đây là lựa chọn phù hợp cho người dùng muốn một mẫu headphone flagship của Apple, thiên về trải nghiệm đeo thoải mái, âm thanh cao cấp và khả năng kết nối mượt với iPhone, iPad hay Mac."
+      ],
+      "sections": [
+        {
+          "title": "Chống ồn chủ động và âm thanh không gian cao cấp",
+          "content": "AirPods Max 2024 được CellphoneS giới thiệu với công nghệ Chủ Động Khử Tiếng Ồn đẳng cấp Pro, chế độ Xuyên Âm và Âm Thanh Không Gian Cá Nhân Hóa có theo dõi chuyển động đầu. Những tính năng này giúp tai nghe phù hợp cả khi tập trung làm việc, nghe nhạc giải trí lẫn xem phim với cảm giác không gian rõ ràng hơn. :contentReference[oaicite:3]{index=3}"
+        },
+        {
+          "title": "Thiết kế chụp tai êm ái, phù hợp sử dụng lâu",
+          "content": "Khác với dòng AirPods in-ear, AirPods Max 2024 là tai nghe chụp tai với đệm tai foam hoạt tính và thiết kế thoáng khí, hướng đến cảm giác đeo dễ chịu trong thời gian dài. Cùng với sạc USB-C và nhiều tùy chọn màu sắc, đây là mẫu tai nghe phù hợp với người dùng ưu tiên sự cao cấp, thoải mái và đồng bộ tốt trong hệ sinh thái Apple. :contentReference[oaicite:4]{index=4}"
+        }
+      ]
+    }
+  },
+  {
+    "id": "24",
+    "slug": "apple-airpods-pro-2-usb-c",
+    "brand": "Apple",
+    "category": "earbuds",
+    "full_name": "Tai nghe Bluetooth Apple AirPods Pro 2 2023 USB-C | Chính hãng Apple Việt Nam",
+    "short_name": "AirPods Pro 2 USB-C",
+    "pricing": {
+      "original_price": 6190000,
+      "discount_percent": 16,
+      "sale_price": 5190000
+    },
+    "colors": [
+      {
+        "variant": "Trắng",
+        "image": "./asset/chi-tiet-san-pham/images/apple-airpods-pro-2-usb-c/pk2.jpg"
+      }
+    ],
+    "connectivity": "Bluetooth, hộp sạc MagSafe USB-C",
+    "charging_port": "USB-C",
+    "chip": "Apple H2",
+    "audio_technology": "Active Noise Cancellation, Adaptive EQ, Transparency Mode, Conversation Awareness, Loud Sound Reduction",
+    "microphone": "Có micro",
+    "controls": "Cảm ứng chạm",
+    "battery": "Hộp sạc MagSafe cổng USB-C",
+    "water_resistance": "Kháng bụi, mồ hôi và nước IP54",
+    "description": {
+      "intro": [
+        "Apple AirPods Pro 2 USB-C là mẫu tai nghe true wireless cao cấp hướng tới người dùng cần chống ồn tốt, kích thước gọn nhẹ và khả năng đồng bộ mạnh với hệ sinh thái Apple. Sản phẩm phù hợp với người dùng thường xuyên di chuyển, làm việc, tập luyện hoặc muốn một chiếc tai nghe in-ear nhỏ gọn nhưng vẫn có trải nghiệm âm thanh cao cấp.",
+        "Điểm mạnh của AirPods Pro 2 USB-C nằm ở chip Apple H2, công nghệ Active Noise Cancellation, Adaptive EQ và khả năng cải thiện chất lượng cuộc gọi trong môi trường ồn. Bên cạnh đó, sản phẩm còn có chế độ Xuyên Âm, tăng cường hội thoại và giảm âm thanh lớn, giúp tai nghe linh hoạt hơn trong nhiều tình huống sử dụng hằng ngày. :contentReference[oaicite:5]{index=5}",
+        "Ngoài tính năng âm thanh, AirPods Pro 2 USB-C còn phù hợp với người dùng năng động nhờ chuẩn kháng bụi, mồ hôi và nước IP54, hộp sạc MagSafe cổng USB-C và 4 cặp đầu tai silicon đi kèm. Đây là lựa chọn rất phù hợp cho người dùng iPhone cần một mẫu tai nghe gọn, mạnh về tiện ích và dễ mang theo."
+      ],
+      "sections": [
+        {
+          "title": "Khử ồn chủ động mạnh, chất âm cân bằng",
+          "content": "AirPods Pro 2 USB-C được CellphoneS giới thiệu với khả năng Chủ Động Khử Tiếng Ồn tốt hơn, đi cùng chip H2 và Adaptive EQ để tái tạo âm thanh sống động hơn. Điều này giúp tai nghe phù hợp cả khi nghe nhạc, xem phim, gọi điện hoặc tập trung làm việc ở môi trường đông người. :contentReference[oaicite:6]{index=6}"
+        },
+        {
+          "title": "Nhỏ gọn, bền bỉ và phù hợp dùng hằng ngày",
+          "content": "Với thiết kế true wireless nhỏ gọn, điều khiển cảm ứng và chuẩn IP54 cho bụi, mồ hôi, nước, AirPods Pro 2 USB-C phù hợp với người dùng cần tai nghe tiện mang theo mỗi ngày. Hộp sạc MagSafe USB-C và 4 cặp đầu tai silicon cũng giúp sản phẩm linh hoạt hơn về độ vừa vặn và khả năng sử dụng trong nhiều hoàn cảnh. :contentReference[oaicite:7]{index=7}"
+        }
+      ]
+    }
   }
 ]
