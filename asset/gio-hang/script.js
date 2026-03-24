@@ -13,50 +13,22 @@ cartList.push(
     {
         "id": 0,
         "quantity": 5,
-        "variant": 2,
-        "model": null
+        "colors": 2
     },
     {
         "id": 2,
         "quantity": 1,
-        "variant": 1, 
-        "model": null 
+        "colors": 1
     },
     {
         "id": 1,
         "quantity": 2,
-        "variant": 1, 
-        "model": null
+        "colors": 1
     },
     {
-        "id": 3,
+        "id": 23,
         "quantity": 4,
-        "variant": 1, 
-        "model": null 
-    },
-    {
-        "id": 28,
-        "quantity": 1,
-        "variant": null,
-        "model": 0
-    },
-    {
-        "id": 25, 
-        "quantity": 13,
-        "variant": 3, 
-        "model": 0 
-    },
-    {
-        "id": 26,
-        "quantity": 1,
-        "variant": null, 
-        "model": 1 
-    },
-    {
-        "id": 27,
-        "quantity": 7,
-        "variant": null, 
-        "model": 1 
+        "colors": 0
     }
 );
 console.log(cartList);
@@ -118,11 +90,11 @@ function addItem(cartItem,cartIndex,sanpham) {
     // item img
     const item_img = document.createElement("img");
     item_img.classList.add("item__img");
-    if (cartItem.variant == null) {
-        item_img.setAttribute("src", sanpham[cartItem.id].images[0]);
+    if (cartItem.colors == null) {
+        item_img.setAttribute("src", sanpham[cartItem.id].colors[0].image);
     }
     else {
-        item_img.setAttribute("src", sanpham[cartItem.id].images[cartItem.variant]);
+        item_img.setAttribute("src", sanpham[cartItem.id].colors[cartItem.colors].image);
     }
     cart_item__img.appendChild(item_img);
 
@@ -154,22 +126,15 @@ function addItem(cartItem,cartIndex,sanpham) {
     const item_price = document.createElement("p");
 
     item_name.classList.add("item-name");
-    item_name.innerHTML = sanpham[cartItem.id].name;
+    item_name.innerHTML = sanpham[cartItem.id].full_name;
     
     item_variant.classList.add("item-variant");
-    if (cartItem.variant != null && cartItem.model != null)
-        item_variant.innerHTML = sanpham[cartItem.id].variant[cartItem.variant]
-                                    + " / " + sanpham[cartItem.id].model[cartItem.model].modelName;
-    else if (cartItem.model == null)
-        item_variant.innerHTML = sanpham[cartItem.id].variant[cartItem.variant];
-    else if (cartItem.model != null)
-        item_variant.innerHTML =  sanpham[cartItem.id].model[cartItem.model].modelName;
+
+    item_variant.innerHTML = sanpham[cartItem.id].colors[cartItem.colors].variant;
 
     item_price.classList.add("item-price");
-    if (cartItem.model == null)
-        item_price.innerHTML = sanpham[cartItem.id].price;
-    else
-        item_price.innerHTML = sanpham[cartItem.id].model[cartItem.model].modelPrice;
+
+    item_price.innerHTML = addThousandsSeparator(sanpham[cartItem.id].pricing.sale_price) + " đ";
 
     cart_item__info.appendChild(item_name);
     cart_item__info.appendChild(item_variant);
@@ -276,13 +241,26 @@ async function updateTotalCost() {
     //total cost
     let totalCost = 0;
     for (let i = 0;i < cartList.length; i++) {
-        totalCost += priceToInt(sanpham[cartList[i].id].price) * cartList[i].quantity;
+        totalCost += (sanpham[cartList[i].id].pricing.sale_price) * cartList[i].quantity;
     }
     console.log(totalCost);
 
-    //add thousands separator
+    
+    //update html
+    const cost_amount= document.querySelector(".cart_cost__amount");
+    cost_amount.innerHTML = addThousandsSeparator(totalCost) + " đ";
+    cost_amount.setAttribute("data-total-cost",totalCost);
+
+    // for thanh toan
+    sessionStorage.setItem("totalCost", cost_amount.dataset.totalCost);  
+    sessionStorage.setItem("totalCostVND", cost_amount.innerHTML);
+
+    return Promise.resolve();
+}
+
+function addThousandsSeparator(price) {
     let intToPrice = "";
-    let totalCost_string = JSON.stringify(totalCost);
+    let totalCost_string = JSON.stringify(price);
     let start = 0
     let end = totalCost_string.length%3;
     (end == 0)? end = 3:0;
@@ -294,33 +272,7 @@ async function updateTotalCost() {
         intToPrice += totalCost_string.slice(start,end) + ",";
     }
     intToPrice += totalCost_string.slice(totalCost_string.length - 3,totalCost_string.length);
-    
-    //update html
-    const cost_amount= document.querySelector(".cart_cost__amount");
-    cost_amount.innerHTML = intToPrice + " đ";
-    cost_amount.setAttribute("data-total-cost",totalCost);
-
-    return Promise.resolve();
-}
-
-function priceToInt(price) { //remove thousands separator
-    let array = price.split(",");
-    array[array.length - 1] = array[array.length - 1].split("đ")[0];
-    let fullPrice = 0;
-    for (let i = 0; i < array.length; i++) {
-        fullPrice += array[i] * 10**(3*(array.length - i - 1)) ;
-    }
-    return fullPrice;
-}
-
-function thanhToan() {
-    const thanhToan = document.querySelector(".buy  .btn-red");
-    const totalCost = document.querySelector(".cart_cost__amount");
-    console.log(totalCost.dataset.totalCost);
-    thanhToan.addEventListener("click", function() {
-        sessionStorage.setItem("totalCost", totalCost.dataset.totalCost);  
-        sessionStorage.setItem("totalCostVND", totalCost.innerHTML);
-    });
+    return intToPrice;
 }
 
 async function main() {
@@ -329,7 +281,6 @@ async function main() {
     updateTotalCost();
     addRemoveFunct();
     changeItemQuantity(); 
-    thanhToan();
 }
 
 main();
