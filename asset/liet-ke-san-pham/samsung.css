@@ -1,0 +1,113 @@
+/* trang samsung*/
+.breadcrumb {
+    font-size: 18px; /* tăng toàn bộ */
+    margin: 15px 0;
+}
+
+.breadcrumb-item {
+    font-size: 18px;
+}
+
+.breadcrumb-item.active {
+    font-size: 20px;  /* chữ Samsung to hơn */
+    font-weight: bold;
+}
+
+.breadcrumb-sep {
+    margin: 0 5px;
+    font-size: 18px;
+}
+.breadcrumb {
+    font-size: 20px;
+}
+
+.breadcrumb-item.active {
+    font-size: 22px;
+    color: #2ecc71; /* xanh nổi */
+}
+.breadcrumb a {
+    text-decoration: none;
+    color: #333;
+}
+
+.breadcrumb a:hover {
+    color: #2ecc71;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 1200%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ===== BANNER ===== */
+.banner img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+/* ===== PRODUCT LIST ===== */
+.product-list {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important; /* 4 ô */
+  gap: 20px; /* giảm khoảng cách cho gọn */
+}
+
+/* ===== PRODUCT ITEM ===== */
+.product-item {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 6px;
+  background: #fff;
+  text-align: center;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+/* Hover */
+.product-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* ===== IMAGE ===== */
+.product-item img {
+  width: 100%;
+  height: 150px;        /* fix chiều cao cho đều */
+  object-fit: contain;    /* cắt ảnh cho đều */
+  display: block;
+  margin: 0 auto;
+}
+
+/* ===== TÊN SẢN PHẨM ===== */
+.product-item h4 {
+  font-size: 14px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* ===== GIÁ ===== */
+.product-item__price {
+  color: red;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* ===== RATING ===== */
+.product-item__rating {
+  color: gold;
+  margin: 5px 0;
+}
+
+/* ===== LƯỢT XEM ===== */
+.product-item__view {
+  font-size: 14px;
+  color: #555;
+}

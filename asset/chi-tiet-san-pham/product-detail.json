@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "slug": "samsung-galaxy-z-fold7",
+    "product_name": "samsung-galaxy-z-fold7",
     "brand": "Samsung",
     "category": "smartphone",
     "full_name": "Samsung Galaxy Z Fold7 5G 12GB/256GB",
@@ -49,14 +49,14 @@
         },
         {
           "title": "Camera độ phân giải cao, hiệu năng flagship",
-          "content": "Máy được CellphoneS giới thiệu với camera 200MP cùng nền tảng xử lý hình ảnh hỗ trợ tối ưu màu sắc và chi tiết. Kết hợp với chip Snapdragon thế hệ mới, Galaxy Z Fold7 mang lại trải nghiệm nhanh, mượt cho cả công việc nặng lẫn giải trí cao cấp trên thiết bị màn hình gập."
+          "content": "Máy được giới thiệu với camera 200MP cùng nền tảng xử lý hình ảnh hỗ trợ tối ưu màu sắc và chi tiết. Kết hợp với chip Snapdragon thế hệ mới, Galaxy Z Fold7 mang lại trải nghiệm nhanh, mượt cho cả công việc nặng lẫn giải trí cao cấp trên thiết bị màn hình gập."
         }
       ]
     }
   },
   {
     "id": "2",
-    "slug": "samsung-galaxy-s26-ultra-12gb-256gb",
+    "product_name": "samsung-galaxy-s26-ultra-12gb-256gb",
     "brand": "Samsung",
     "category": "smartphone",
     "full_name": "Samsung Galaxy S26 Ultra 5G 12GB/256GB",
@@ -100,14 +100,14 @@
         },
         {
           "title": "Cụm camera đa tiêu cự cho nhu cầu cao cấp",
-          "content": "Theo thông tin CellphoneS, Galaxy S26 Ultra được trang bị camera góc rộng 200MP, camera siêu rộng 50MP, tele 5x 50MP và tele 3x 10MP. Cấu hình này giúp máy chụp linh hoạt từ phong cảnh, chân dung đến các tình huống cần zoom quang học, phù hợp với người thích chụp ảnh và quay video trên điện thoại."
+          "content": "Galaxy S26 Ultra được trang bị camera góc rộng 200MP, camera siêu rộng 50MP, tele 5x 50MP và tele 3x 10MP. Cấu hình này giúp máy chụp linh hoạt từ phong cảnh, chân dung đến các tình huống cần zoom quang học, phù hợp với người thích chụp ảnh và quay video trên điện thoại."
         }
       ]
     }
   },
   {
     "id": "3",
-    "slug": "samsung-galaxy-z-fold6",
+    "product_name": "samsung-galaxy-z-fold6",
     "brand": "Samsung",
     "category": "smartphone",
     "full_name": "Samsung Galaxy Z Fold6 5G 12GB/256GB",
@@ -155,14 +155,14 @@
         },
         {
           "title": "Hiệu năng mạnh với chip Snapdragon 8 Gen 3 for Galaxy",
-          "content": "Theo CellphoneS, máy dùng Snapdragon 8 Gen 3 for Galaxy cùng RAM 12GB và bộ nhớ trong 256GB ở bản tiêu chuẩn. Cấu hình này giúp Galaxy Z Fold6 xử lý mượt các tác vụ nặng, chơi game tốt và đáp ứng ổn định những nhu cầu đa nhiệm vốn là thế mạnh của dòng điện thoại gập."
+          "content": "Máy dùng Snapdragon 8 Gen 3 for Galaxy cùng RAM 12GB và bộ nhớ trong 256GB ở bản tiêu chuẩn. Cấu hình này giúp Galaxy Z Fold6 xử lý mượt các tác vụ nặng, chơi game tốt và đáp ứng ổn định những nhu cầu đa nhiệm vốn là thế mạnh của dòng điện thoại gập."
         }
       ]
     }
   },
   {
     "id": "4",
-    "slug": "samsung-galaxy-s25-fe-5g-8gb-128gb",
+    "product_name": "samsung-galaxy-s25-fe-5g-8gb-128gb",
     "brand": "Samsung",
     "category": "smartphone",
     "full_name": "Samsung Galaxy S25 FE 5G 8GB/128GB",
@@ -206,18 +206,18 @@
       "sections": [
         {
           "title": "Màn hình đẹp, hiển thị mượt",
-          "content": "Galaxy S25 FE được CellphoneS giới thiệu với màn hình Dynamic AMOLED 2X 6.7 inch độ phân giải Full HD+ và tần số quét 120Hz. Cấu hình này mang lại trải nghiệm hiển thị sống động, cuộn chạm mượt và phù hợp để xem phim, lướt web hay chơi game trong thời gian dài."
+          "content": "Galaxy S25 FE với màn hình Dynamic AMOLED 2X 6.7 inch độ phân giải Full HD+ và tần số quét 120Hz. Cấu hình này mang lại trải nghiệm hiển thị sống động, cuộn chạm mượt và phù hợp để xem phim, lướt web hay chơi game trong thời gian dài."
         },
         {
           "title": "Camera và pin phục vụ tốt nhu cầu hằng ngày",
-          "content": "Máy dùng hệ thống camera 50MP + 12MP + 8MP, hỗ trợ zoom quang 3x ở phần mô tả của CellphoneS, đủ linh hoạt cho chụp phong cảnh, chân dung và ảnh đêm. Bên cạnh đó, viên pin 4900mAh cùng sạc nhanh 45W giúp thiết bị đáp ứng tốt nhịp sử dụng cả ngày."
+          "content": "Máy dùng hệ thống camera 50MP + 12MP + 8MP, hỗ trợ zoom quang 3x, đủ linh hoạt cho chụp phong cảnh, chân dung và ảnh đêm. Bên cạnh đó, viên pin 4900mAh cùng sạc nhanh 45W giúp thiết bị đáp ứng tốt nhịp sử dụng cả ngày."
         }
       ]
     }
   },
   {
     "id": "5",
-    "slug": "samsung-galaxy-s24-256gb-5g",
+    "product_name": "samsung-galaxy-s24-256gb-5g",
     "brand": "Samsung",
     "category": "smartphone",
     "full_name": "Samsung Galaxy S24 5G 8GB/256GB",
@@ -256,7 +256,7 @@
       "intro": [
         "Samsung Galaxy S24 là mẫu flagship nhỏ gọn dành cho người dùng thích điện thoại cao cấp nhưng vẫn ưu tiên cảm giác cầm nắm thoải mái. Máy được trang bị màn hình Dynamic AMOLED 2X 6.2 inch, chip Exynos 2400, RAM 8GB và cụm camera sau 50MP + 10MP + 12MP.",
         "So với nhiều mẫu máy màn hình lớn, Galaxy S24 nổi bật ở sự cân bằng giữa hiệu năng, tính di động và khả năng sử dụng bằng một tay. Đây là lựa chọn phù hợp với người dùng muốn một thiết bị gọn, đẹp, mạnh và vẫn có đầy đủ các tính năng cao cấp của dòng Galaxy S.",
-        "CellphoneS cũng nhấn mạnh những tiện ích Galaxy AI như dịch thuật trực tiếp và tìm kiếm bằng hình ảnh, giúp Galaxy S24 không chỉ mạnh về phần cứng mà còn thuận tiện hơn trong các tình huống sử dụng thực tế hằng ngày."
+        "Những tiện ích Galaxy AI như dịch thuật trực tiếp và tìm kiếm bằng hình ảnh, giúp Galaxy S24 không chỉ mạnh về phần cứng mà còn thuận tiện hơn trong các tình huống sử dụng thực tế hằng ngày."
       ],
       "sections": [
         {
@@ -265,14 +265,14 @@
         },
         {
           "title": "Hiệu năng mạnh cùng các tính năng Galaxy AI",
-          "content": "Máy dùng chip Exynos 2400 10 nhân đi kèm RAM 8GB và bộ nhớ trong 256GB ở phiên bản CellphoneS đang giới thiệu. Kết hợp với cụm camera 50MP + 10MP + 12MP và các tính năng AI như dịch trực tiếp hay tìm kiếm bằng hình ảnh, Galaxy S24 phù hợp cho người cần một flagship gọn nhưng đa dụng."
+          "content": "Máy dùng chip Exynos 2400 10 nhân đi kèm RAM 8GB và bộ nhớ trong 256GB đang giới thiệu. Kết hợp với cụm camera 50MP + 10MP + 12MP và các tính năng AI như dịch trực tiếp hay tìm kiếm bằng hình ảnh, Galaxy S24 phù hợp cho người cần một flagship gọn nhưng đa dụng."
         }
       ]
     }
   },
   {
     "id": "6",
-    "slug": "iphone-17-pro-1tb",
+    "product_name": "iphone-17-pro-1tb",
     "brand": "Apple",
     "category": "smartphone",
     "full_name": "Apple iPhone 17 Pro 1TB",
@@ -323,7 +323,7 @@
   },
   {
     "id": "7",
-    "slug": "iphone-17-pro-max-512gb",
+    "product_name": "iphone-17-pro-max-512gb",
     "brand": "Apple",
     "category": "smartphone",
     "full_name": "Apple iPhone 17 Pro Max 512GB",
@@ -374,7 +374,7 @@
   },
   {
     "id": "8",
-    "slug": "iphone-16-pro-128gb",
+    "product_name": "iphone-16-pro-128gb",
     "brand": "Apple",
     "category": "smartphone",
     "full_name": "Apple iPhone 16 Pro 128GB",
@@ -429,7 +429,7 @@
   },
   {
     "id": "9",
-    "slug": "iphone-16e-128gb",
+    "product_name": "iphone-16e-128gb",
     "brand": "Apple",
     "category": "smartphone",
     "full_name": "Apple iPhone 16e 128GB",
@@ -476,7 +476,7 @@
   },
   {
     "id": "10",
-    "slug": "iphone-15-128gb",
+    "product_name": "iphone-15-128gb",
     "brand": "Apple",
     "category": "smartphone",
     "full_name": "Apple iPhone 15 128GB",
@@ -531,7 +531,7 @@
   },
   {
     "id": "11",
-    "slug": "iphone-15-pro-max-256gb",
+    "product_name": "iphone-15-pro-max-256gb",
     "brand": "Apple",
     "category": "smartphone",
     "full_name": "Apple iPhone 15 Pro Max 256GB",
@@ -588,9 +588,9 @@
   },
   {
     "id": "12",
-    "slug": "ipad-pro-m5-11-inch-wifi-256gb",
+    "product_name": "ipad-pro-m5-11-inch-wifi-256gb",
     "brand": "Apple",
-    "category": "tablet",
+    "category": "smartphone",
     "full_name": "Apple iPad Pro M5 11 inch WiFi 256GB",
     "short_name": "iPad Pro M5",
     "pricing": {
@@ -635,9 +635,9 @@
   },
   {
     "id": "13",
-    "slug": "ipad-pro-m4-11-inch-wifi-256gb",
+    "product_name": "ipad-pro-m4-11-inch-wifi-256gb",
     "brand": "Apple",
-    "category": "tablet",
+    "category": "smartphone",
     "full_name": "Apple iPad Pro M4 11 inch WiFi 256GB",
     "short_name": "iPad Pro M4",
     "pricing": {
@@ -682,9 +682,9 @@
   },
   {
     "id": "14",
-    "slug": "ipad-air-m3-11-inch-wifi-128gb",
+    "product_name": "ipad-air-m3-11-inch-wifi-128gb",
     "brand": "Apple",
-    "category": "tablet",
+    "category": "smartphone",
     "full_name": "Apple iPad Air M3 11 inch WiFi 128GB",
     "short_name": "iPad Air M3",
     "pricing": {
@@ -719,25 +719,25 @@
     "durability": "Không công bố",
     "description": {
       "intro": [
-        "Xiaomi 15T Pro là mẫu smartphone hiệu năng cao hướng tới người dùng cần tốc độ xử lý mạnh, trải nghiệm mượt và khả năng đáp ứng tốt cho các tác vụ giải trí lẫn công việc. Thiết bị phù hợp với nhóm người dùng thích smartphone mạnh, công nghệ mới và trải nghiệm gần với phân khúc cao cấp.",
-        "Điểm nổi bật của Xiaomi 15T Pro nằm ở định hướng tập trung vào hiệu suất, khả năng xử lý đa nhiệm, gaming và sử dụng cường độ cao. Máy phù hợp với người dùng muốn một thiết bị có sức mạnh tốt, màn hình đẹp và đủ linh hoạt cho nhiều nhu cầu từ cơ bản đến nâng cao.",
-        "Ngoài hiệu năng, Xiaomi 15T Pro còn hấp dẫn với người dùng thích trải nghiệm smartphone hiện đại, nhiều tính năng và tối ưu tốt cho giải trí. Đây là lựa chọn phù hợp cho người dùng ưu tiên cấu hình mạnh, tốc độ nhanh và giá trị sử dụng cao trong tầm đầu tư."
+        "iPad Air M3 là mẫu máy tính bảng cao cấp hướng tới người dùng cần hiệu năng mạnh, thiết kế mỏng nhẹ và trải nghiệm sử dụng linh hoạt cho cả học tập lẫn công việc. Thiết bị nổi bật với chip Apple M3, màn hình chất lượng cao và khả năng hoạt động mượt trong các tác vụ sáng tạo nội dung, ghi chú, giải trí và đa nhiệm.",
+        "So với các dòng iPad phổ thông, iPad Air M3 mang lại sự cân bằng rất tốt giữa sức mạnh xử lý và tính di động. Máy phù hợp với người dùng muốn một thiết bị gọn nhẹ hơn laptop nhưng vẫn đủ mạnh để chỉnh sửa ảnh, dựng video cơ bản, làm việc văn phòng và học online trong thời gian dài.",
+        "Ngoài hiệu năng, iPad Air M3 còn hấp dẫn nhờ khả năng tương thích tốt với hệ sinh thái Apple, hỗ trợ phụ kiện như Apple Pencil và bàn phím rời. Đây là lựa chọn phù hợp cho người cần một mẫu tablet hiện đại, bền bỉ và dùng lâu dài."
       ],
       "sections": [
         {
-          "title": "Hiệu suất cao cho người dùng thích cấu hình mạnh",
-          "content": "Xiaomi 15T Pro là mẫu máy phù hợp với người dùng cần tốc độ xử lý nhanh, chơi game tốt, đa nhiệm mượt và vận hành ổn định trong thời gian dài. Thiết bị hướng nhiều đến trải nghiệm hiệu năng, nên đặc biệt phù hợp với nhóm khách hàng thích smartphone mạnh và phản hồi nhanh."
+          "title": "Hiệu năng mạnh với chip Apple M3",
+          "content": "Điểm nổi bật của iPad Air M3 nằm ở vi xử lý Apple M3 cho tốc độ xử lý nhanh, phản hồi mượt và tối ưu tốt cho nhiều tác vụ từ học tập, làm việc đến sáng tạo nội dung. Máy có thể đáp ứng tốt nhu cầu chỉnh sửa ảnh, làm slide, ghi chú, xử lý đa nhiệm và giải trí chất lượng cao."
         },
         {
-          "title": "Phù hợp cả giải trí lẫn sử dụng cường độ cao",
-          "content": "Bên cạnh sức mạnh phần cứng, Xiaomi 15T Pro còn được định hướng để phục vụ tốt các nhu cầu như xem phim, lướt web, quay chụp, làm việc trên điện thoại và sử dụng liên tục trong ngày. Đây là dòng máy hợp với người dùng muốn một thiết bị đa năng nhưng vẫn thiên về hiệu năng."
+          "title": "Thiết kế mỏng nhẹ, linh hoạt hằng ngày",
+          "content": "iPad Air M3 tiếp tục giữ thế mạnh về thiết kế gọn gàng, dễ mang theo và phù hợp với nhiều bối cảnh sử dụng khác nhau. Người dùng có thể dùng máy để học tập, họp trực tuyến, ghi chú nhanh hoặc kết hợp phụ kiện để thay thế một phần vai trò của laptop trong nhiều tình huống."
         }
       ]
     }
   },
   {
     "id": "15",
-    "slug": "xiaomi-15-5g-12gb-512gb",
+    "product_name": "xiaomi-15-5g-12gb-512gb",
     "brand": "Xiaomi",
     "category": "smartphone",
     "full_name": "Xiaomi 15 5G 12GB/512GB",
@@ -750,15 +750,15 @@
     "colors": [
       {
         "variant": "Xanh lá",
-        "image": null
+        "image": "./asset/chi-tiet-san-pham/images/xiaomi-15/xanh-la.jpg"
       },
       {
         "variant": "Đen",
-        "image": null
+        "image": "./asset/chi-tiet-san-pham/images/xiaomi-15/den.jpg"
       },
       {
         "variant": "Trắng",
-        "image": null
+        "image": "./asset/chi-tiet-san-pham/images/xiaomi-15/trang.jpg"
       }
     ],
     "os": "Xiaomi HyperOS 2",
@@ -788,7 +788,7 @@
   },
   {
     "id": "16",
-    "slug": "xiaomi-15t-pro-5g-12gb-256gb",
+    "product_name": "xiaomi-15t-pro-5g-12gb-256gb",
     "brand": "Xiaomi",
     "category": "smartphone",
     "full_name": "Xiaomi 15T Pro 5G 12GB/256GB",
@@ -801,15 +801,15 @@
     "colors": [
       {
         "variant": "Vàng Mocha",
-        "image": null
+        "image": "./asset/chi-tiet-san-pham/images/xiaomi-15t-pro/vang.jpg"
       },
       {
         "variant": "Xám",
-        "image": null
+        "image": "./asset/chi-tiet-san-pham/images/xiaomi-15t-pro/xam.jpg"
       },
       {
         "variant": "Đen",
-        "image": null
+        "image": "./asset/chi-tiet-san-pham/images/xiaomi-15t-pro/den.jpg"
       }
     ],
     "os": "Android 15",
@@ -839,10 +839,10 @@
   },
   {
     "id": "17",
-    "slug": "vivo-v60-12gb-256gb",
+    "product_name": "vivo-v60-12gb-256gb",
     "brand": "vivo",
     "category": "smartphone",
-    "full_name": "vivo V60 5G 12GB/256GB",
+    "full_name": "Vivo V60 5G 12GB/256GB",
     "short_name": "V60",
     "pricing": {
       "original_price": 15990000,
@@ -886,7 +886,7 @@
   },
   {
     "id": "18",
-    "slug": "vivo-v60-lite-8gb-256gb",
+    "product_name": "vivo-v60-lite-8gb-256gb",
     "brand": "vivo",
     "category": "smartphone",
     "full_name": "vivo V60 Lite 5G 8GB/256GB",
@@ -937,7 +937,7 @@
   },
   {
     "id": "19",
-    "slug": "oppo-find-x9-pro-16gb-512gb",
+    "product_name": "oppo-find-x9-pro-16gb-512gb",
     "brand": "OPPO",
     "category": "smartphone",
     "full_name": "OPPO Find X9 Pro 5G 16GB/512GB",
@@ -988,7 +988,7 @@
   },
   {
     "id": "20",
-    "slug": "oppo-find-x9-12gb-256gb",
+    "product_name": "oppo-find-x9-12gb-256gb",
     "brand": "OPPO",
     "category": "smartphone",
     "full_name": "OPPO Find X9 5G 12GB/256GB",
@@ -1035,7 +1035,7 @@
   },
   {
     "id": "21",
-    "slug": "oppo-reno15-pro-12gb-256gb",
+    "product_name": "oppo-reno15-pro-12gb-256gb",
     "brand": "OPPO",
     "category": "smartphone",
     "full_name": "OPPO Reno15 Pro 5G 12GB/256GB",
@@ -1082,7 +1082,7 @@
   },
   {
     "id": "22",
-    "slug": "oppo-reno14-pro-12gb-512gb",
+    "product_name": "oppo-reno14-pro-12gb-512gb",
     "brand": "OPPO",
     "category": "smartphone",
     "full_name": "OPPO Reno14 Pro 5G 12GB/512GB",
@@ -1129,7 +1129,7 @@
   },
   {
     "id": "23",
-    "slug": "apple-airpods-max-2024",
+    "product_name": "apple-airpods-max-2024",
     "brand": "Apple",
     "category": "headphone",
     "full_name": "Tai nghe chụp tai chống ồn Apple AirPods Max 2024 | Chính hãng Apple Việt Nam",
@@ -1172,24 +1172,24 @@
     "description": {
       "intro": [
         "Apple AirPods Max 2024 là mẫu tai nghe chụp tai cao cấp hướng tới người dùng cần chất lượng âm thanh tốt, khả năng chống ồn mạnh và trải nghiệm nghe nhạc thoải mái trong thời gian dài. Sản phẩm phù hợp với người dùng làm việc trong môi trường nhiều tiếng ồn, thường xuyên nghe nhạc, xem phim hoặc cần một chiếc tai nghe Apple cao cấp để đồng bộ cùng hệ sinh thái sẵn có.",
-        "Điểm nổi bật của AirPods Max 2024 là trình điều khiển động do Apple thiết kế, kết hợp với Chủ Động Khử Tiếng Ồn, chế độ Xuyên Âm và Âm Thanh Không Gian Cá Nhân Hóa. Nhờ đó tai nghe mang lại trải nghiệm âm thanh sống động, chi tiết và linh hoạt hơn trong nhiều ngữ cảnh sử dụng khác nhau. :contentReference[oaicite:2]{index=2}",
+        "Điểm nổi bật của AirPods Max 2024 là trình điều khiển động do Apple thiết kế, kết hợp với Chủ Động Khử Tiếng Ồn, chế độ Xuyên Âm và Âm Thanh Không Gian Cá Nhân Hóa. Nhờ đó tai nghe mang lại trải nghiệm âm thanh sống động, chi tiết và linh hoạt hơn trong nhiều ngữ cảnh sử dụng khác nhau.",
         "Bên cạnh chất âm, AirPods Max 2024 còn gây ấn tượng ở thiết kế chụp tai cao cấp, đệm tai foam hoạt tính và cổng sạc USB-C tiện lợi. Đây là lựa chọn phù hợp cho người dùng muốn một mẫu headphone flagship của Apple, thiên về trải nghiệm đeo thoải mái, âm thanh cao cấp và khả năng kết nối mượt với iPhone, iPad hay Mac."
       ],
       "sections": [
         {
           "title": "Chống ồn chủ động và âm thanh không gian cao cấp",
-          "content": "AirPods Max 2024 được CellphoneS giới thiệu với công nghệ Chủ Động Khử Tiếng Ồn đẳng cấp Pro, chế độ Xuyên Âm và Âm Thanh Không Gian Cá Nhân Hóa có theo dõi chuyển động đầu. Những tính năng này giúp tai nghe phù hợp cả khi tập trung làm việc, nghe nhạc giải trí lẫn xem phim với cảm giác không gian rõ ràng hơn. :contentReference[oaicite:3]{index=3}"
+          "content": "AirPods Max 2024 được giới thiệu với công nghệ Chủ Động Khử Tiếng Ồn đẳng cấp Pro, chế độ Xuyên Âm và Âm Thanh Không Gian Cá Nhân Hóa có theo dõi chuyển động đầu. Những tính năng này giúp tai nghe phù hợp cả khi tập trung làm việc, nghe nhạc giải trí lẫn xem phim với cảm giác không gian rõ ràng hơn."
         },
         {
           "title": "Thiết kế chụp tai êm ái, phù hợp sử dụng lâu",
-          "content": "Khác với dòng AirPods in-ear, AirPods Max 2024 là tai nghe chụp tai với đệm tai foam hoạt tính và thiết kế thoáng khí, hướng đến cảm giác đeo dễ chịu trong thời gian dài. Cùng với sạc USB-C và nhiều tùy chọn màu sắc, đây là mẫu tai nghe phù hợp với người dùng ưu tiên sự cao cấp, thoải mái và đồng bộ tốt trong hệ sinh thái Apple. :contentReference[oaicite:4]{index=4}"
+          "content": "Khác với dòng AirPods in-ear, AirPods Max 2024 là tai nghe chụp tai với đệm tai foam hoạt tính và thiết kế thoáng khí, hướng đến cảm giác đeo dễ chịu trong thời gian dài. Cùng với sạc USB-C và nhiều tùy chọn màu sắc, đây là mẫu tai nghe phù hợp với người dùng ưu tiên sự cao cấp, thoải mái và đồng bộ tốt trong hệ sinh thái Apple."
         }
       ]
     }
   },
   {
     "id": "24",
-    "slug": "apple-airpods-pro-2-usb-c",
+    "product_name": "apple-airpods-pro-2-usb-c",
     "brand": "Apple",
     "category": "earbuds",
     "full_name": "Tai nghe Bluetooth Apple AirPods Pro 2 2023 USB-C | Chính hãng Apple Việt Nam",
@@ -1216,17 +1216,17 @@
     "description": {
       "intro": [
         "Apple AirPods Pro 2 USB-C là mẫu tai nghe true wireless cao cấp hướng tới người dùng cần chống ồn tốt, kích thước gọn nhẹ và khả năng đồng bộ mạnh với hệ sinh thái Apple. Sản phẩm phù hợp với người dùng thường xuyên di chuyển, làm việc, tập luyện hoặc muốn một chiếc tai nghe in-ear nhỏ gọn nhưng vẫn có trải nghiệm âm thanh cao cấp.",
-        "Điểm mạnh của AirPods Pro 2 USB-C nằm ở chip Apple H2, công nghệ Active Noise Cancellation, Adaptive EQ và khả năng cải thiện chất lượng cuộc gọi trong môi trường ồn. Bên cạnh đó, sản phẩm còn có chế độ Xuyên Âm, tăng cường hội thoại và giảm âm thanh lớn, giúp tai nghe linh hoạt hơn trong nhiều tình huống sử dụng hằng ngày. :contentReference[oaicite:5]{index=5}",
+        "Điểm mạnh của AirPods Pro 2 USB-C nằm ở chip Apple H2, công nghệ Active Noise Cancellation, Adaptive EQ và khả năng cải thiện chất lượng cuộc gọi trong môi trường ồn. Bên cạnh đó, sản phẩm còn có chế độ Xuyên Âm, tăng cường hội thoại và giảm âm thanh lớn, giúp tai nghe linh hoạt hơn trong nhiều tình huống sử dụng hằng ngày.",
         "Ngoài tính năng âm thanh, AirPods Pro 2 USB-C còn phù hợp với người dùng năng động nhờ chuẩn kháng bụi, mồ hôi và nước IP54, hộp sạc MagSafe cổng USB-C và 4 cặp đầu tai silicon đi kèm. Đây là lựa chọn rất phù hợp cho người dùng iPhone cần một mẫu tai nghe gọn, mạnh về tiện ích và dễ mang theo."
       ],
       "sections": [
         {
           "title": "Khử ồn chủ động mạnh, chất âm cân bằng",
-          "content": "AirPods Pro 2 USB-C được CellphoneS giới thiệu với khả năng Chủ Động Khử Tiếng Ồn tốt hơn, đi cùng chip H2 và Adaptive EQ để tái tạo âm thanh sống động hơn. Điều này giúp tai nghe phù hợp cả khi nghe nhạc, xem phim, gọi điện hoặc tập trung làm việc ở môi trường đông người. :contentReference[oaicite:6]{index=6}"
+          "content": "AirPods Pro 2 USB-C được giới thiệu với khả năng Chủ Động Khử Tiếng Ồn tốt hơn, đi cùng chip H2 và Adaptive EQ để tái tạo âm thanh sống động hơn. Điều này giúp tai nghe phù hợp cả khi nghe nhạc, xem phim, gọi điện hoặc tập trung làm việc ở môi trường đông người."
         },
         {
           "title": "Nhỏ gọn, bền bỉ và phù hợp dùng hằng ngày",
-          "content": "Với thiết kế true wireless nhỏ gọn, điều khiển cảm ứng và chuẩn IP54 cho bụi, mồ hôi, nước, AirPods Pro 2 USB-C phù hợp với người dùng cần tai nghe tiện mang theo mỗi ngày. Hộp sạc MagSafe USB-C và 4 cặp đầu tai silicon cũng giúp sản phẩm linh hoạt hơn về độ vừa vặn và khả năng sử dụng trong nhiều hoàn cảnh. :contentReference[oaicite:7]{index=7}"
+          "content": "Với thiết kế true wireless nhỏ gọn, điều khiển cảm ứng và chuẩn IP54 cho bụi, mồ hôi, nước, AirPods Pro 2 USB-C phù hợp với người dùng cần tai nghe tiện mang theo mỗi ngày. Hộp sạc MagSafe USB-C và 4 cặp đầu tai silicon cũng giúp sản phẩm linh hoạt hơn về độ vừa vặn và khả năng sử dụng trong nhiều hoàn cảnh."
         }
       ]
     }
