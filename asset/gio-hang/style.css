@@ -7,6 +7,22 @@ footer > .container {
     display: none;
 }
 
+/* breadcrumb */
+
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 1.4rem;
+  color: var(--detail-muted);
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.breadcrumb a {
+  color: var(--primary-color);
+}
+
 /* container */
 
 .container  h2{
