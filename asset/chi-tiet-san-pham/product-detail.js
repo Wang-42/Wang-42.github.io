@@ -59,8 +59,12 @@ function renderProduct(product) {
   const detailTitle = document.getElementById("detailTitle");
 
 
-  breadcrumb.children[2].children[0].textContent = product.brand;
-  breadcrumb.children[2].children[0].setAttribute("href", "./" + product.brand.toLowerCase() + ".html");
+  breadcrumb.children[2].children[0].textContent = product.tab;
+
+  if (product.tab == "Tai nghe & phụ kiện")
+    breadcrumb.children[2].children[0].setAttribute("href", "./tai-nghe-phu-kien.html");
+  else 
+    breadcrumb.children[2].children[0].setAttribute("href", "./" + product.tab.toLowerCase() + ".html");
 
   const pdCrumb = document.createElement("li");
   pdCrumb.innerHTML = "<a href=\"#\">" + product.product_name + "</a></li>";
