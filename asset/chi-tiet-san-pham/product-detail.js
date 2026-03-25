@@ -14,10 +14,8 @@ var cartItem = {
 // kiem tra san pham trung
 function isDuplicate(cart_item) {
   const cartList = JSON.parse(sessionStorage.getItem("cartList"));
-  console.log(cartList);
   let flag = -1;
   cartList.forEach((item,index) => {
-    console.log(item);
     if (cart_item.id == item.id && cart_item.colors == item.colors)
       flag = index;
   })
@@ -56,8 +54,20 @@ function renderProduct(product) {
   document.title = product.full_name || "Chi tiết sản phẩm";
 
   // breadcrumb / heading
+  const breadcrumb = document.querySelector(".breadcrumb");
   const productName = document.getElementById("productName");
   const detailTitle = document.getElementById("detailTitle");
+
+
+  breadcrumb.children[2].children[0].textContent = product.brand;
+  breadcrumb.children[2].children[0].setAttribute("href", "./" + product.brand.toLowerCase() + ".html");
+
+  const pdCrumb = document.createElement("li");
+  pdCrumb.innerHTML = "<a href=\"#\">" + product.product_name + "</a></li>";
+  const sep = document.createElement("span");
+  sep.textContent = "/";
+  breadcrumb.appendChild(sep);
+  breadcrumb.appendChild(pdCrumb); 
 
   if (productName) {
     productName.textContent = product.full_name || "Sản phẩm";
@@ -154,10 +164,8 @@ function renderProduct(product) {
   document.querySelectorAll(".cta-button").forEach((btn) => {
     btn.addEventListener("click", () => {
       let cart_index = isDuplicate(cartItem);
-      console.log(cart_index);
       if (cart_index == -1) {
         const cartList = JSON.parse(sessionStorage.getItem("cartList"));
-        console.log(cartList);
         cartList.push(cartItem);
         window.sessionStorage.setItem("cartList",JSON.stringify(cartList));
       }

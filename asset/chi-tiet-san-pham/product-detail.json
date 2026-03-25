@@ -840,7 +840,7 @@
   {
     "id": "17",
     "product_name": "vivo-v60-12gb-256gb",
-    "brand": "vivo",
+    "brand": "Vivo",
     "category": "smartphone",
     "full_name": "Vivo V60 5G 12GB/256GB",
     "short_name": "V60",
@@ -887,7 +887,7 @@
   {
     "id": "18",
     "product_name": "vivo-v60-lite-8gb-256gb",
-    "brand": "vivo",
+    "brand": "Vivo",
     "category": "smartphone",
     "full_name": "vivo V60 Lite 5G 8GB/256GB",
     "short_name": "V60 Lite",
@@ -938,7 +938,7 @@
   {
     "id": "19",
     "product_name": "oppo-find-x9-pro-16gb-512gb",
-    "brand": "OPPO",
+    "brand": "Oppo",
     "category": "smartphone",
     "full_name": "OPPO Find X9 Pro 5G 16GB/512GB",
     "short_name": "Find X9 Pro",
@@ -989,7 +989,7 @@
   {
     "id": "20",
     "product_name": "oppo-find-x9-12gb-256gb",
-    "brand": "OPPO",
+    "brand": "Oppo",
     "category": "smartphone",
     "full_name": "OPPO Find X9 5G 12GB/256GB",
     "short_name": "Find X9",
@@ -1036,7 +1036,7 @@
   {
     "id": "21",
     "product_name": "oppo-reno15-pro-12gb-256gb",
-    "brand": "OPPO",
+    "brand": "Oppo",
     "category": "smartphone",
     "full_name": "OPPO Reno15 Pro 5G 12GB/256GB",
     "short_name": "Reno15 Pro",
@@ -1083,7 +1083,7 @@
   {
     "id": "22",
     "product_name": "oppo-reno14-pro-12gb-512gb",
-    "brand": "OPPO",
+    "brand": "Oppo",
     "category": "smartphone",
     "full_name": "OPPO Reno14 Pro 5G 12GB/512GB",
     "short_name": "Reno14 Pro",
