@@ -4,33 +4,31 @@ async function getData() {
     return respone.json();
 }
 
-let temp= [];
-window.sessionStorage.setItem("cartList", JSON.stringify(temp));
 
 //fetch cartList
 const cartList = JSON.parse(sessionStorage.getItem("cartList"));
-cartList.push(
-    {
-        "id": 0,
-        "quantity": 5,
-        "colors": 2
-    },
-    {
-        "id": 2,
-        "quantity": 1,
-        "colors": 1
-    },
-    {
-        "id": 1,
-        "quantity": 2,
-        "colors": 1
-    },
-    {
-        "id": 23,
-        "quantity": 4,
-        "colors": 0
-    }
-);
+// cartList.push(
+//     {
+//         "id": 0,
+//         "quantity": 5,
+//         "colors": 2
+//     },
+//     {
+//         "id": 2,
+//         "quantity": 1,
+//         "colors": 1
+//     },
+//     {
+//         "id": 1,
+//         "quantity": 2,
+//         "colors": 1
+//     },
+//     {
+//         "id": 23,
+//         "quantity": 4,
+//         "colors": 0
+//     }
+// );
 console.log(cartList);
 
 // check if cart is empty
@@ -222,6 +220,7 @@ function addRemoveFunct() {
             cartList.splice(current.parentElement.dataset.index,1);
             emptyCart();
             console.log(cartList);
+            window.sessionStorage.setItem("cartList", JSON.stringify(cartList));
             cart_item__remove_agree.parentElement.parentElement.parentElement.remove();
             updateCartIndex();
             updateTotalCost();

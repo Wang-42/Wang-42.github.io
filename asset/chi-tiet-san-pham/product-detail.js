@@ -1,3 +1,29 @@
+// danh sach gio hang
+//const cartList = JSON.parse(sessionStorage.getItem("cartList"))
+if (JSON.parse(sessionStorage.getItem("cartList")) == null) {
+  let temp = [];
+  window.sessionStorage.setItem("cartList",JSON.stringify(temp));
+};
+
+var cartItem = {
+  "id": 0,
+  "quantity": 1,
+  "colors": 0
+};
+
+// kiem tra san pham trung
+function isDuplicate(cart_item) {
+  const cartList = JSON.parse(sessionStorage.getItem("cartList"));
+  console.log(cartList);
+  let flag = -1;
+  cartList.forEach((item,index) => {
+    console.log(item);
+    if (cart_item.id == item.id && cart_item.colors == item.colors)
+      flag = index;
+  })
+  return flag;
+}
+
 // Hàm này trả về chuỗi giá sản phẩm theo định dạng VN
 function formatPrice(price) {
   const value = Number(price);
@@ -99,12 +125,18 @@ function renderProduct(product) {
       btn.className = `color-chip ${index === 0 ? "is-selected" : ""}`;
       btn.textContent = color.variant || `Màu ${index + 1}`;
 
+      // cartItem color index
+      btn.setAttribute("data-index", index);
+
       btn.addEventListener("click", () => {
         document.querySelectorAll(".color-chip").forEach((item) => {
           item.classList.remove("is-selected");
         });
 
         btn.classList.add("is-selected");
+
+        cartItem.colors = btn.dataset.index;
+        console.log(cartItem);
 
         if (mainImage && color.image) {
           mainImage.src = color.image;
@@ -117,6 +149,25 @@ function renderProduct(product) {
       colorOptions.appendChild(btn);
     });
   }
+
+  // thanh-toan gio-hang
+  document.querySelectorAll(".cta-button").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      let cart_index = isDuplicate(cartItem);
+      console.log(cart_index);
+      if (cart_index == -1) {
+        const cartList = JSON.parse(sessionStorage.getItem("cartList"));
+        console.log(cartList);
+        cartList.push(cartItem);
+        window.sessionStorage.setItem("cartList",JSON.stringify(cartList));
+      }
+      else {
+        const cartList = JSON.parse(sessionStorage.getItem("cartList"));
+        cartList[cart_index].quantity++;
+        window.sessionStorage.setItem("cartList",JSON.stringify(cartList));
+      }
+    })
+  })
 
   // specs
   const categoryProduct = product.category;
@@ -187,6 +238,9 @@ async function initProductDetail() {
 
     const slug = getQueryParam("slug");
     const id = getQueryParam("id");
+
+    // cartItem product id
+    cartItem.id = id;
 
     let product = null;
 
