@@ -407,6 +407,10 @@ footer > .container {
   animation: spin 2s linear infinite;
 }
 
+.container > .loader-container > .loader {
+  top: 50%;
+}
+
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }

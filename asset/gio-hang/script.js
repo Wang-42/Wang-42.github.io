@@ -158,7 +158,7 @@ function addItem(cartItem,cartIndex,sanpham) {
 
 async function changeItemQuantity() {
     const cart_item__quantity = document.getElementsByClassName("cart_item__quantity");
-    const loader_container = document.getElementsByClassName("loader-container");
+    const loader_container = document.querySelectorAll(".cart__item > .loader-container");
 
     for (let i = 0; i < cart_item__quantity.length; i++) {
         let current = cart_item__quantity[i];
@@ -205,6 +205,7 @@ function updateCartIndex() {
 
 function addRemoveFunct() {
     const rmbtn = document.querySelectorAll(".cart_item__remove");
+    const loading = document.querySelector(".loader-container");
 
     for (let i = 0;i < rmbtn.length;i++) {
         let current = rmbtn[i];
@@ -214,14 +215,18 @@ function addRemoveFunct() {
         });
         let cart_item__remove_agree = document.getElementsByClassName("cart_item__remove_agree")[i];
         cart_item__remove_agree.addEventListener("click", function(){
+            loading.classList.remove("display-none");
             // remove item from cart
-            cartList.splice(current.parentElement.dataset.index,1);
-            emptyCart();
-            console.log(cartList);
-            window.sessionStorage.setItem("cartList", JSON.stringify(cartList));
-            cart_item__remove_agree.parentElement.parentElement.parentElement.remove();
-            updateCartIndex();
-            updateTotalCost();
+            setTimeout(() => {
+                loading.classList.add("display-none");
+                cartList.splice(current.parentElement.dataset.index,1);
+                emptyCart();
+                console.log(cartList);
+                window.sessionStorage.setItem("cartList", JSON.stringify(cartList));
+                cart_item__remove_agree.parentElement.parentElement.parentElement.remove();
+                updateCartIndex();
+                updateTotalCost();
+            }, 200);
         });
         let cart_item__remove_close = document.getElementsByClassName("cart_item__remove_close")[i];
         cart_item__remove_close.addEventListener("click",function() {
