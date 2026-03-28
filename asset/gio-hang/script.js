@@ -14,7 +14,7 @@ console.log(cartList);
 async function emptyCart() {
     const cart__content= document.querySelector(".cart__content");
     const cart_empty = document.querySelector(".cart-empty");
-    if (cartList.length == 0) {
+    if (cartList == null || cartList.length == 0) {
         cart_empty.classList.remove("display-none");
         cart__content.classList.add("display-none");
     }
