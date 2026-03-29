@@ -8,10 +8,9 @@
     </title>
     <link
       rel="icon"
-      type="image/x-icon"
+      type="image/png"
       href="./asset/dang-nhap/images/7storeLogoTitle.png"
     />
-    <link rel="icon" href="" />
     <link rel="stylesheet" href="./asset/normalize.css" />
     <link
       rel="stylesheet"
@@ -107,122 +106,124 @@
         </div>
       </nav>
 
-      <div class="register-container">
-        <div class="register-header">
-          <h1>Đăng ký trở thành 7Store-MEMBER</h1>
+      <main>
+        <div class="register-container">
+          <div class="register-header">
+            <h1>Đăng ký trở thành 7Store-MEMBER</h1>
+          </div>
+          <form class="register-form">
+            <p class="register-note">Điền các thông tin sau</p>
+            <div class="input-group">
+              <div class="form-control">
+                <label class="register-label">Tên người dùng</label>
+                <input
+                  class="register-input"
+                  id="userName"
+                  type="text"
+                  placeholder="Nhập tên người dùng"
+                />
+                <div id="userNameError" style="display: none; color: red">
+                  Vui lòng nhập tên người dùng
+                </div>
+              </div>
+            </div>
+            <div class="input-group">
+              <div class="form-control">
+                <label class="register-label">Họ và tên</label>
+                <input
+                  class="register-input"
+                  id="fullName"
+                  type="text"
+                  placeholder="Nhập họ và tên"
+                />
+                <div id="fullNameError" style="display: none; color: red">
+                  Vui lòng nhập Họ và Tên
+                </div>
+              </div>
+              <div class="form-control">
+                <label class="register-label">Ngày sinh</label>
+                <input class="register-input" id="dob" type="date" />
+              </div>
+              <div id="dobError" style="display: none; color: red">
+                Vui lòng chọn Ngày sinh
+              </div>
+            </div>
+            <div class="input-group">
+              <div class="form-control">
+                <label class="register-label">Số điện thoại</label>
+                <input
+                  class="register-input"
+                  id="phone"
+                  type="text"
+                  placeholder="Nhập số điện thoại"
+                />
+                <div id="phoneNumberError" style="display: none; color: red">
+                  Vui lòng nhập số điện thoại
+                </div>
+              </div>
+              <div class="form-control">
+                <label class="register-label">Email</label>
+                <input
+                  class="register-input"
+                  id="email"
+                  type="email"
+                  placeholder="Nhập email"
+                />
+                <div id="emailError" style="display: none; color: red">
+                  Vui lòng nhập Email
+                </div>
+              </div>
+            </div>
+            <p class="divider-text">Tạo mật khẩu</p>
+            <div class="input-group">
+              <div class="form-control">
+                <label class="register-label">Nhập mật khẩu</label>
+                <input
+                  class="register-input"
+                  id="password"
+                  type="password"
+                  placeholder="Nhập mật khẩu"
+                />
+                <div id="passwordError" style="display: none; color: red">
+                  Vui lòng nhập Mật khẩu
+                </div>
+                <p class="register-caution">
+                  ! Mật khẩu tối thiểu 8 ký tự, có ít nhất 1 chữ số, 1 chữ cái
+                  thường, 1 chữ cái hoa và một ký tự đặc biệt
+                </p>
+              </div>
+              <div class="form-control">
+                <label class="register-label">Nhập lại mật khẩu</label>
+                <input
+                  class="register-input"
+                  id="re-password"
+                  type="password"
+                  placeholder="Nhập lại mật khẩu"
+                />
+                <div id="rePasswordError" style="display: none; color: red">
+                  Vui lòng nhập lại Mật khẩu
+                </div>
+              </div>
+            </div>
+            <div class="register-lisense">
+              <input type="checkbox" id="agree" name="agree" />
+              <label for="agree"
+                >Tôi đồng ý với <a href="#">Điều khoản dịch vụ</a> và
+                <a href="#">Chính sách bảo mật</a></label
+              >
+              <div id="agreeError" style="display: none; color: red">
+                Vui lòng tick vào ô!
+              </div>
+            </div>
+            <div class="form-footer">
+              <button type="button" class="btn-back">
+                <a href="./dang-nhap.html">Quay lại đăng nhập</a>
+              </button>
+              <button type="submit" class="btn-submit">Hoàn tất đăng ký</button>
+            </div>
+          </form>
         </div>
-        <form class="register-form">
-          <p class="register-note">Điền các thông tin sau</p>
-          <div class="input-group">
-            <div class="form-control">
-              <label class="register-label">Tên người dùng</label>
-              <input
-                class="register-input"
-                id="userName"
-                type="text"
-                placeholder="Nhập tên người dùng"
-              />
-              <div id="userNameError" style="display: none; color: red">
-                Vui lòng nhập tên người dùng
-              </div>
-            </div>
-          </div>
-          <div class="input-group">
-            <div class="form-control">
-              <label class="register-label">Họ và tên</label>
-              <input
-                class="register-input"
-                id="fullName"
-                type="text"
-                placeholder="Nhập họ và tên"
-              />
-              <div id="fullNameError" style="display: none; color: red">
-                Vui lòng nhập Họ và Tên
-              </div>
-            </div>
-            <div class="form-control">
-              <label class="register-label">Ngày sinh</label>
-              <input class="register-input" id="dob" type="date" />
-            </div>
-            <div id="dobError" style="display: none; color: red">
-              Vui lòng chọn Ngày sinh
-            </div>
-          </div>
-          <div class="input-group">
-            <div class="form-control">
-              <label class="register-label">Số điện thoại</label>
-              <input
-                class="register-input"
-                id="phone"
-                type="text"
-                placeholder="Nhập số điện thoại"
-              />
-              <div id="phoneNumberError" style="display: none; color: red">
-                Vui lòng nhập số điện thoại
-              </div>
-            </div>
-            <div class="form-control">
-              <label class="register-label">Email</label>
-              <input
-                class="register-input"
-                id="email"
-                type="email"
-                placeholder="Nhập email"
-              />
-              <div id="emailError" style="display: none; color: red">
-                Vui lòng nhập Email
-              </div>
-            </div>
-          </div>
-          <p class="divider-text">Tạo mật khẩu</p>
-          <div class="input-group">
-            <div class="form-control">
-              <label class="register-label">Nhập mật khẩu</label>
-              <input
-                class="register-input"
-                id="password"
-                type="password"
-                placeholder="Nhập mật khẩu"
-              />
-              <div id="passwordError" style="display: none; color: red">
-                Vui lòng nhập Mật khẩu
-              </div>
-              <p class="register-caution">
-                ! Mật khẩu tối thiểu 8 ký tự, có ít nhất 1 chữ số, 1 chữ cái
-                thường, 1 chữ cái hoa và một ký tự đặc biệt
-              </p>
-            </div>
-            <div class="form-control">
-              <label class="register-label">Nhập lại mật khẩu</label>
-              <input
-                class="register-input"
-                id="re-password"
-                type="password"
-                placeholder="Nhập lại mật khẩu"
-              />
-              <div id="rePasswordError" style="display: none; color: red">
-                Vui lòng nhập lại Mật khẩu
-              </div>
-            </div>
-          </div>
-          <div class="register-lisense">
-            <input type="checkbox" id="agree" name="agree" />
-            <label for="agree"
-              >Tôi đồng ý với <a href="#">Điều khoản dịch vụ</a> và
-              <a href="#">Chính sách bảo mật</a></label
-            >
-            <div id="agreeError" style="display: none; color: red">
-              Vui lòng tick vào ô!
-            </div>
-          </div>
-          <div class="form-footer">
-            <button type="button" class="btn-back">
-              <a href="./dang-nhap.html">Quay lại đăng nhập</a>
-            </button>
-            <button type="submit" class="btn-submit">Hoàn tất đăng ký</button>
-          </div>
-        </form>
-      </div>
+      </main>
       <footer class="footer">
         <div class="container">
           <div class="footer-body">

@@ -45,7 +45,9 @@ document.addEventListener("DOMContentLoaded", function () {
           return this.defaultMessage;
         }
 
-        return emailRegex.test(value) ? "" : "Email khong dung dinh dang";
+        return emailRegex.test(value)
+          ? ""
+          : "Email không đúng định dạng! Vui lòng nhập lại.";
       },
     },
     password: {
