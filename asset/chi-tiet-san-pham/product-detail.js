@@ -164,6 +164,12 @@ function renderProduct(product) {
     });
   }
 
+  // alert
+  const alert = document.querySelector(".added-to-cart-alert");
+  const alert_product_name = document.querySelector(".added-to-cart-alert > strong");
+  alert_product_name.innerHTML = productName.innerHTML;
+  
+
   // thanh-toan gio-hang
   document.querySelectorAll(".cta-button").forEach((btn) => {
     btn.addEventListener("click", () => {
@@ -176,7 +182,20 @@ function renderProduct(product) {
         const cartList = JSON.parse(sessionStorage.getItem("cartList"));
         cartList[cart_index].quantity++;
         window.sessionStorage.setItem("cartList", JSON.stringify(cartList));
-      }
+      };
+      const loader = document.querySelector(".loader-container")
+      loader.classList.remove("display-none");
+      alert.style.transition = "all 0s ease";
+      alert.style.left = "150%";
+      alert.style.opacity = "0";
+      clearTimeout(alert_timeout);
+      setTimeout(() => {
+        alert.style.transition = "all 1s ease";
+        loader.classList.add("display-none");
+        alert.style.left = "40%";
+        alert.style.opacity = "1";
+        start_alert(alert);
+      }, 200);
     });
   });
 
@@ -233,6 +252,13 @@ function renderProduct(product) {
 
     detailStory.innerHTML = html || "<p>Đang cập nhật nội dung chi tiết.</p>";
   }
+}
+
+let alert_timeout
+function start_alert(alert) {
+  alert_timeout = setTimeout(() => {
+    alert.style.opacity = "0";
+  }, 4000);
 }
 
 async function initProductDetail() {
