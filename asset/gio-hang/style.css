@@ -4,7 +4,7 @@
 
 /* footer */
 footer > .container {
-  display: none;
+  display: block;
 }
 
 /* breadcrumb */
